@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "914472568406",
+    "project_id": "belajar-matematika-63fd5",
+    "storage_bucket": "belajar-matematika-63fd5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:914472568406:android:02ec2a54dd9469181e1df7",
+        "android_client_info": {
+          "package_name": "com.c.belajarmatematika"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "914472568406-lf1bqkhik4p34aoqogqah49bgtteqdem.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTaLFMPW9YZ3NV65ulAwfuMQuMnl2HPb4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "914472568406-lf1bqkhik4p34aoqogqah49bgtteqdem.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
