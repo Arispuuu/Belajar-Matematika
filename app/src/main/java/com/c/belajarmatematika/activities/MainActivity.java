@@ -1,8 +1,10 @@
-package com.c.belajarmatematika;
+package com.c.belajarmatematika.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.c.belajarmatematika.R;
 
 public class MainActivity extends AppCompatActivity {
 
