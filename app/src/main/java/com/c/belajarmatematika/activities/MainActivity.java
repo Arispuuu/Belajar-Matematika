@@ -10,6 +10,7 @@ import android.util.Base64;
 import android.widget.Toast;
 
 import com.c.belajarmatematika.databinding.ActivityMainBinding;
+import com.c.belajarmatematika.matematika.MenuActivity;
 import com.c.belajarmatematika.utilities.Constants;
 import com.c.belajarmatematika.utilities.PreferenceManager;
 import com.google.firebase.firestore.DocumentReference;
@@ -36,7 +37,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setListeners() {
-        binding.imageSignOut.setOnClickListener(v -> signOut());
+        binding.imageBack.setOnClickListener(v ->
+                startActivity(new Intent(getApplicationContext(), MenuActivity.class)));
+        binding.fabNewChat.setOnClickListener(v ->
+                startActivity(new Intent(getApplicationContext(), UsersActivity.class)));
     }
 
     private void loadUserDetails() {
@@ -61,26 +65,7 @@ public class MainActivity extends AppCompatActivity {
                         preferenceManager.getString(Constants.KEY_USER_ID)
                 );
         documentReference.update(Constants.KEY_FCM_TOKEN, token)
-                .addOnSuccessListener(unused -> showToast("Token update successfully"))
                 .addOnFailureListener(e -> showToast("Unable to update token"));
     }
 
-    private void signOut() {
-        showToast("Signing Out...");
-        FirebaseFirestore database = FirebaseFirestore.getInstance();
-        DocumentReference documentReference =
-                database.collection(Constants.KEY_COLLECTION_USER).document(
-                        preferenceManager.getString(Constants.KEY_USER_ID)
-                );
-        HashMap<String, Object > updates = new HashMap<>();
-        updates.put(Constants.KEY_FCM_TOKEN, FieldValue.delete());
-        documentReference.update(updates)
-                .addOnSuccessListener(unused -> {
-                    preferenceManager.clear();
-                    startActivity(new Intent(getApplicationContext(), SignInActivity.class));
-                    finish();
-                })
-                .addOnFailureListener(e -> showToast("Unable to sign out"));
-
-    }
 }
