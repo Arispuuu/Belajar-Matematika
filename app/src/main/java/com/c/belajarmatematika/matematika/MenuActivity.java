@@ -1,21 +1,20 @@
 package com.c.belajarmatematika.matematika;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Toast;
 
-import com.c.belajarmatematika.R;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.c.belajarmatematika.activities.MainActivity;
 import com.c.belajarmatematika.activities.SignInActivity;
-import com.c.belajarmatematika.databinding.ActivityMainBinding;
 import com.c.belajarmatematika.databinding.ActivityMenuBinding;
 import com.c.belajarmatematika.utilities.Constants;
 import com.c.belajarmatematika.utilities.PreferenceManager;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FieldValue;
 import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.messaging.FirebaseMessaging;
 
 import java.util.HashMap;
 
@@ -23,6 +22,7 @@ public class MenuActivity extends AppCompatActivity {
 
     private ActivityMenuBinding binding;
     private PreferenceManager preferenceManager;
+    private FirebaseFirestore database;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +30,7 @@ public class MenuActivity extends AppCompatActivity {
         binding = ActivityMenuBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         preferenceManager = new PreferenceManager(getApplicationContext());
+        getToken();
         setListeners();
     }
 
@@ -41,6 +42,20 @@ public class MenuActivity extends AppCompatActivity {
 
     private void showToast(String message) {
         Toast.makeText(getApplicationContext(), message, Toast.LENGTH_SHORT).show();
+    }
+
+    private void getToken() {
+        FirebaseMessaging.getInstance().getToken().addOnSuccessListener(this::updateToken);
+    }
+
+    private void updateToken(String token) {
+        FirebaseFirestore database = FirebaseFirestore.getInstance();
+        DocumentReference documentReference =
+                database.collection(Constants.KEY_COLLECTION_USER).document(
+                        preferenceManager.getString(Constants.KEY_USER_ID)
+                );
+        documentReference.update(Constants.KEY_FCM_TOKEN, token)
+                .addOnFailureListener(e -> showToast("Unable to update token"));
     }
 
     private void signOut() {
@@ -61,4 +76,6 @@ public class MenuActivity extends AppCompatActivity {
                 .addOnFailureListener(e -> showToast("Unable to sign out"));
 
     }
+
+
 }
