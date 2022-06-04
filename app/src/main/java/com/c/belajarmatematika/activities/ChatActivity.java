@@ -1,5 +1,6 @@
 package com.c.belajarmatematika.activities;
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
@@ -245,7 +246,8 @@ public class ChatActivity extends BaseActivity {
     }
 
     private void setListeners() {
-        binding.imageBack.setOnClickListener(v -> onBackPressed());
+        binding.imageBack.setOnClickListener(v ->
+                startActivity(new Intent(getApplicationContext(), MainActivity.class)));
         binding.layoutSend.setOnClickListener(v -> sendMessage());
     }
 

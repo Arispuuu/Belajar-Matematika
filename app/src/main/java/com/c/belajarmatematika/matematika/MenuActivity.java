@@ -2,12 +2,14 @@ package com.c.belajarmatematika.matematika;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.WindowManager;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.c.belajarmatematika.activities.MainActivity;
 import com.c.belajarmatematika.activities.SignInActivity;
+import com.c.belajarmatematika.activities.UsersActivity;
 import com.c.belajarmatematika.databinding.ActivityMenuBinding;
 import com.c.belajarmatematika.utilities.Constants;
 import com.c.belajarmatematika.utilities.PreferenceManager;
@@ -27,6 +29,7 @@ public class MenuActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         binding = ActivityMenuBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         preferenceManager = new PreferenceManager(getApplicationContext());
@@ -38,6 +41,8 @@ public class MenuActivity extends AppCompatActivity {
         binding.imageSignOut.setOnClickListener(v -> signOut());
         binding.imageChat.setOnClickListener(v ->
                 startActivity(new Intent(getApplicationContext(), MainActivity.class)));
+        binding.buttonMateri.setOnClickListener(v ->
+                startActivity(new Intent(getApplicationContext(), MateriActivity.class)));
     }
 
     private void showToast(String message) {
@@ -75,7 +80,6 @@ public class MenuActivity extends AppCompatActivity {
                     finish();
                 })
                 .addOnFailureListener(e -> showToast("Unable to sign out"));
-
     }
 
 

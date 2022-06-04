@@ -7,6 +7,7 @@ import android.view.View;
 import com.c.belajarmatematika.adapters.UserAdapter;
 import com.c.belajarmatematika.databinding.ActivityUsersBinding;
 import com.c.belajarmatematika.listeners.UserListener;
+import com.c.belajarmatematika.matematika.MenuActivity;
 import com.c.belajarmatematika.models.User;
 import com.c.belajarmatematika.utilities.Constants;
 import com.c.belajarmatematika.utilities.PreferenceManager;
@@ -33,7 +34,8 @@ public class UsersActivity extends BaseActivity implements UserListener {
     }
 
     private void setListeners() {
-        binding.imageBack.setOnClickListener(v -> onBackPressed());
+        binding.imageBack.setOnClickListener(v ->
+                startActivity(new Intent(getApplicationContext(), MainActivity.class)));
     }
 
     private void getUsers() {
