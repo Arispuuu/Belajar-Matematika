@@ -12,4 +12,5 @@
     <string name="sign_in">Sign In</string>
     <string name="select_user">Select User</string>
     <string name="type_a_message">Type a message</string>
+    <string name="txtCorrectScore">"you've got %1$s out %2$s correct."</string>
 </resources>

@@ -7,6 +7,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.c.belajarmatematika.Quiz.QuizBulatActivity;
 import com.c.belajarmatematika.activities.MainActivity;
 import com.c.belajarmatematika.activities.SignInActivity;
 import com.c.belajarmatematika.activities.UsersActivity;
@@ -43,6 +44,8 @@ public class MenuActivity extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(), MainActivity.class)));
         binding.buttonMateri.setOnClickListener(v ->
                 startActivity(new Intent(getApplicationContext(), MateriActivity.class)));
+        binding.buttonKuis.setOnClickListener(v ->
+                startActivity(new Intent(getApplicationContext(), QuizBulatActivity.class)));
     }
 
     private void showToast(String message) {
