@@ -1,0 +1,620 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:2:1-88:12
+INJECTED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:2:1-88:12
+INJECTED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:2:1-88:12
+INJECTED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:2:1-88:12
+MERGED from [androidx.databinding:viewbinding:7.1.3] C:\Users\CIKO\.gradle\caches\transforms-3\30e272dd6029d5a9134ab8b0b2477e49\transformed\viewbinding-7.1.3\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\CIKO\.gradle\caches\transforms-3\2b35e19e499948adea817247d236a47f\transformed\material-1.5.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\CIKO\.gradle\caches\transforms-3\f6dba5d15859c8d5410e7c956c1f1449\transformed\constraintlayout-2.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\CIKO\.gradle\caches\transforms-3\66c1aa9b72b227650eb373aa54dfdbbb\transformed\appcompat-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.intuit.sdp:sdp-android:1.0.6] C:\Users\CIKO\.gradle\caches\transforms-3\238e8122958ea39249b25d83f3983f92\transformed\sdp-android-1.0.6\AndroidManifest.xml:2:1-11:12
+MERGED from [com.intuit.ssp:ssp-android:1.0.6] C:\Users\CIKO\.gradle\caches\transforms-3\cf9d8009f2e5e615538393e7021b0b3b\transformed\ssp-android-1.0.6\AndroidManifest.xml:2:1-11:12
+MERGED from [com.makeramen:roundedimageview:2.3.0] C:\Users\CIKO\.gradle\caches\transforms-3\cc8b8a8056771498d4ee43a15f3b5b0d\transformed\roundedimageview-2.3.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:17:1-61:12
+MERGED from [com.google.firebase:firebase-firestore:24.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\1bdc2d1a0ee957f6970b921ca8c877a6\transformed\firebase-firestore-24.1.0\AndroidManifest.xml:2:1-26:12
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\9b3bb4b5e316bf67af3af47d801b22db\transformed\multidex-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\34351c5de9167ff54473031e2088ce15\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta05] C:\Users\CIKO\.gradle\caches\transforms-3\2f30c19f776f8fd3d2de42c17775368e\transformed\firebase-appcheck-interop-16.0.0-beta05\AndroidManifest.xml:15:1-26:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\d331e8744030f4b396f7e629cd44f63f\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\9676a389bb62eadf5c36cf3412b457fa\transformed\play-services-base-18.0.1\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\f8db782c4ffa65404c78b85c751bec38\transformed\play-services-cloud-messaging-17.0.1\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\72d22f6a14ee16e07455e8421bced053\transformed\play-services-stats-17.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-datatransport:18.1.1] C:\Users\CIKO\.gradle\caches\transforms-3\bcbec35d0698f239911d95bc90208284\transformed\firebase-datatransport-18.1.1\AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\570216b2a346f4461e915c57fe8b149f\transformed\firebase-installations-17.0.1\AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d90c0e548ad836e1bcd7a2507c334a87\transformed\firebase-auth-interop-19.0.2\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:20.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\99c9f4d55a69134a1a48ac6baa0b923c\transformed\firebase-common-20.1.0\AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\9d2c7e49d39723ab304ffb3f97f0f8b6\transformed\firebase-iid-interop-17.1.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\3d4d8c5d328c270dd7af0804074451b9\transformed\firebase-installations-interop-17.0.1\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\1c63f971c3a347c46e8eeade49fd2a17\transformed\play-services-tasks-18.0.1\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\56a8f38414ad8b0f8910be818864972f\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\12218c671e595a9d0cb78468d9cd5eaa\transformed\play-services-basement-18.0.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\CIKO\.gradle\caches\transforms-3\caae55629a612cf6f3d6b983a32c3604\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\CIKO\.gradle\caches\transforms-3\7cf66cb37a729c24c71d739243672670\transformed\activity-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\CIKO\.gradle\caches\transforms-3\22d513c132a154ff3f471a3be419f519\transformed\appcompat-resources-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\796066bd507228fb94e977ba6f97cc1d\transformed\emoji2-views-helper-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\caa275d550273cc914c299f44dc00c16\transformed\emoji2-1.0.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\CIKO\.gradle\caches\transforms-3\325aa0ad16ae775a24737d389d640745\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\d1d58cedf41307cb89edca0c0c271eef\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\36d8331f3bd478ef1af92093d3fcadd6\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\CIKO\.gradle\caches\transforms-3\5a884c4b2d8bb1be07045495bd141cb8\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\a2f486a4596b07562687024430b500ad\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\e7a96d8ec2a79a2cef5ff7810e9c4e09\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\5be25f36088b0edd5d0a653a3cef1f9b\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\f59d8ffe6564cfd3eb97a4c7e5a7a8f4\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\b5ae8c22320ee28543b2e2a320c83409\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\4572610d8b28f7c8647c8240dff9ce14\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\0a8112900229384c9e43723409cf393d\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.7.0] C:\Users\CIKO\.gradle\caches\transforms-3\9e5e6bcad516c79624aa3e6f33c23a91\transformed\core-1.7.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\38a4f089c16a2daa407862365aa635b5\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\CIKO\.gradle\caches\transforms-3\30df83d67574094b1814379a7142da69\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\2268a9705fb8d315073f09003fca52b3\transformed\savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\CIKO\.gradle\caches\transforms-3\1697449995118bf42bdc678bc352ccca\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\32ce499610442ef73fdd6bfa096066b4\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\db5af1c6cb689434a369192b2e1c0206\transformed\transport-backend-cct-3.1.2\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\3bb2da771958b109fb30a11801e532b7\transformed\transport-runtime-3.1.2\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\9ffac90473c17200deeb13fbcb6be532\transformed\transport-api-3.0.0\AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\5c9fc418ae576d1b1d0259786459fe1d\transformed\firebase-components-17.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\bb7487b1b2735b1a82057b29fe36146d\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\CIKO\.gradle\caches\transforms-3\6be069e02f4ec54574baccc2ebfd2e3e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\CIKO\.gradle\caches\transforms-3\2b326b9818b25997fcfa4ca0bff064a3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\708913544c148eb73eea5852cacf5a2f\transformed\startup-runtime-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\00618d1ab2fc8a540accbcc838b5a340\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\9db9b7ce38df97a9c903f2b5f523af66\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\CIKO\.gradle\caches\transforms-3\b7dc78e8c039bc57abec856e942f6a1f\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\CIKO\.gradle\caches\transforms-3\8cb2c72f5edd7db29544b16d1fa554aa\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\9fc609192e865e22339184306ea40540\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\c7467ae046ff2cdedb0c4a8f0bd94d35\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\b9f9ea554a48e7918f9b738df74f150c\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\382448082e1649fdcb6c4bc4cfda28e2\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\b054c3853d7367f89b2e55f252ac9b20\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\562973d62c0db0280790428bf0ff0039\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [io.grpc:grpc-android:1.44.1] C:\Users\CIKO\.gradle\caches\transforms-3\716135c303660ed15424ea2647d90b62\transformed\grpc-android-1.44.1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\108183edb3fe9dc9a94a38d0431aab54\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
+INJECTED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:2:1-88:12
+INJECTED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:2:1-88:12
+INJECTED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:2:1-88:12
+	package
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:3:5-38
+		INJECTED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml
+		INJECTED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:2:1-88:12
+		INJECTED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:2:1-88:12
+		INJECTED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\1bdc2d1a0ee957f6970b921ca8c877a6\transformed\firebase-firestore-24.1.0\AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\1bdc2d1a0ee957f6970b921ca8c877a6\transformed\firebase-firestore-24.1.0\AndroidManifest.xml:14:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\f8db782c4ffa65404c78b85c751bec38\transformed\play-services-cloud-messaging-17.0.1\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\f8db782c4ffa65404c78b85c751bec38\transformed\play-services-cloud-messaging-17.0.1\AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\570216b2a346f4461e915c57fe8b149f\transformed\firebase-installations-17.0.1\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\570216b2a346f4461e915c57fe8b149f\transformed\firebase-installations-17.0.1\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\db5af1c6cb689434a369192b2e1c0206\transformed\transport-backend-cct-3.1.2\AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\db5af1c6cb689434a369192b2e1c0206\transformed\transport-backend-cct-3.1.2\AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:7:5-86:19
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\CIKO\.gradle\caches\transforms-3\2b35e19e499948adea817247d236a47f\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\CIKO\.gradle\caches\transforms-3\2b35e19e499948adea817247d236a47f\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\CIKO\.gradle\caches\transforms-3\f6dba5d15859c8d5410e7c956c1f1449\transformed\constraintlayout-2.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\CIKO\.gradle\caches\transforms-3\f6dba5d15859c8d5410e7c956c1f1449\transformed\constraintlayout-2.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-firestore:24.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\1bdc2d1a0ee957f6970b921ca8c877a6\transformed\firebase-firestore-24.1.0\AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:24.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\1bdc2d1a0ee957f6970b921ca8c877a6\transformed\firebase-firestore-24.1.0\AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta05] C:\Users\CIKO\.gradle\caches\transforms-3\2f30c19f776f8fd3d2de42c17775368e\transformed\firebase-appcheck-interop-16.0.0-beta05\AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta05] C:\Users\CIKO\.gradle\caches\transforms-3\2f30c19f776f8fd3d2de42c17775368e\transformed\firebase-appcheck-interop-16.0.0-beta05\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\9676a389bb62eadf5c36cf3412b457fa\transformed\play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\9676a389bb62eadf5c36cf3412b457fa\transformed\play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\72d22f6a14ee16e07455e8421bced053\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\72d22f6a14ee16e07455e8421bced053\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-datatransport:18.1.1] C:\Users\CIKO\.gradle\caches\transforms-3\bcbec35d0698f239911d95bc90208284\transformed\firebase-datatransport-18.1.1\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.1] C:\Users\CIKO\.gradle\caches\transforms-3\bcbec35d0698f239911d95bc90208284\transformed\firebase-datatransport-18.1.1\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\570216b2a346f4461e915c57fe8b149f\transformed\firebase-installations-17.0.1\AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\570216b2a346f4461e915c57fe8b149f\transformed\firebase-installations-17.0.1\AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d90c0e548ad836e1bcd7a2507c334a87\transformed\firebase-auth-interop-19.0.2\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d90c0e548ad836e1bcd7a2507c334a87\transformed\firebase-auth-interop-19.0.2\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:20.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\99c9f4d55a69134a1a48ac6baa0b923c\transformed\firebase-common-20.1.0\AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\99c9f4d55a69134a1a48ac6baa0b923c\transformed\firebase-common-20.1.0\AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\9d2c7e49d39723ab304ffb3f97f0f8b6\transformed\firebase-iid-interop-17.1.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\9d2c7e49d39723ab304ffb3f97f0f8b6\transformed\firebase-iid-interop-17.1.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\1c63f971c3a347c46e8eeade49fd2a17\transformed\play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\1c63f971c3a347c46e8eeade49fd2a17\transformed\play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\56a8f38414ad8b0f8910be818864972f\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\56a8f38414ad8b0f8910be818864972f\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\12218c671e595a9d0cb78468d9cd5eaa\transformed\play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\12218c671e595a9d0cb78468d9cd5eaa\transformed\play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\caa275d550273cc914c299f44dc00c16\transformed\emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\caa275d550273cc914c299f44dc00c16\transformed\emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.7.0] C:\Users\CIKO\.gradle\caches\transforms-3\9e5e6bcad516c79624aa3e6f33c23a91\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] C:\Users\CIKO\.gradle\caches\transforms-3\9e5e6bcad516c79624aa3e6f33c23a91\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\db5af1c6cb689434a369192b2e1c0206\transformed\transport-backend-cct-3.1.2\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\db5af1c6cb689434a369192b2e1c0206\transformed\transport-backend-cct-3.1.2\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\3bb2da771958b109fb30a11801e532b7\transformed\transport-runtime-3.1.2\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\3bb2da771958b109fb30a11801e532b7\transformed\transport-runtime-3.1.2\AndroidManifest.xml:25:5-39:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\CIKO\.gradle\caches\transforms-3\6be069e02f4ec54574baccc2ebfd2e3e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\CIKO\.gradle\caches\transforms-3\6be069e02f4ec54574baccc2ebfd2e3e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\CIKO\.gradle\caches\transforms-3\2b326b9818b25997fcfa4ca0bff064a3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\CIKO\.gradle\caches\transforms-3\2b326b9818b25997fcfa4ca0bff064a3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\708913544c148eb73eea5852cacf5a2f\transformed\startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\708913544c148eb73eea5852cacf5a2f\transformed\startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] C:\Users\CIKO\.gradle\caches\transforms-3\9e5e6bcad516c79624aa3e6f33c23a91\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:13:9-55
+activity#com.c.belajarmatematika.kuis2.ResultOperasi2Activity
+ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:14:9-17:40
+	android:screenOrientation
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:16:13-50
+	android:exported
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:17:13-37
+	android:name
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:15:13-57
+activity#com.c.belajarmatematika.kuis2.KuisOperasi2Activity
+ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:18:9-21:53
+	android:screenOrientation
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:21:13-50
+	android:exported
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:20:13-37
+	android:name
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:19:13-55
+activity#com.c.belajarmatematika.kuis2.Skuis2Activity
+ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:22:9-25:53
+	android:screenOrientation
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:25:13-50
+	android:exported
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:23:13-49
+activity#com.c.belajarmatematika.Kuis.Skuis1Activity
+ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:26:9-29:53
+	android:screenOrientation
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:29:13-50
+	android:exported
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:27:13-48
+activity#com.c.belajarmatematika.matematika.KuisActivity
+ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:30:9-33:53
+	android:screenOrientation
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:33:13-50
+	android:exported
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:31:13-52
+activity#com.c.belajarmatematika.Kuis.ResultOperasiActivity
+ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:34:9-37:53
+	android:screenOrientation
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:37:13-50
+	android:exported
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:36:13-37
+	android:name
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:35:13-55
+activity#com.c.belajarmatematika.Kuis.KuizOperasiActivity
+ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:38:9-41:53
+	android:screenOrientation
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:41:13-50
+	android:exported
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:40:13-37
+	android:name
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:39:13-53
+activity#com.c.belajarmatematika.bilanganBulat.BilanganBulatActivity
+ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:42:9-45:53
+	android:screenOrientation
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:45:13-50
+	android:exported
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:44:13-37
+	android:name
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:43:13-64
+activity#com.c.belajarmatematika.matematika.MateriActivity
+ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:46:9-49:53
+	android:screenOrientation
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:49:13-50
+	android:exported
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:48:13-37
+	android:name
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:47:13-54
+activity#com.c.belajarmatematika.activities.ChatActivity
+ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:50:9-53:58
+	android:windowSoftInputMode
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:53:13-55
+	android:exported
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:52:13-37
+	android:name
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:51:13-52
+activity#com.c.belajarmatematika.activities.UsersActivity
+ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:54:9-56:40
+	android:exported
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:56:13-37
+	android:name
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:55:13-53
+activity#com.c.belajarmatematika.matematika.MenuActivity
+ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:57:9-60:53
+	android:screenOrientation
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:60:13-50
+	android:exported
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:59:13-37
+	android:name
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:58:13-52
+activity#com.c.belajarmatematika.activities.SignUpActivity
+ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:61:9-64:58
+	android:windowSoftInputMode
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:64:13-55
+	android:exported
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:63:13-37
+	android:name
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:62:13-54
+activity#com.c.belajarmatematika.activities.SignInActivity
+ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:65:9-74:20
+	android:windowSoftInputMode
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:68:13-55
+	android:exported
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:67:13-36
+	android:name
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:66:13-54
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:69:13-73:29
+action#android.intent.action.MAIN
+ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:70:17-69
+	android:name
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:70:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:72:17-77
+	android:name
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:72:27-74
+activity#com.c.belajarmatematika.activities.MainActivity
+ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:75:9-77:40
+	android:exported
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:77:13-37
+	android:name
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:76:13-52
+service#com.c.belajarmatematika.firebase.MessagingService
+ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:79:9-85:19
+	android:exported
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:81:13-37
+	android:name
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:80:13-54
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:82:13-84:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:83:17-78
+	android:name
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:83:25-75
+uses-sdk
+INJECTED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml
+INJECTED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.1.3] C:\Users\CIKO\.gradle\caches\transforms-3\30e272dd6029d5a9134ab8b0b2477e49\transformed\viewbinding-7.1.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.1.3] C:\Users\CIKO\.gradle\caches\transforms-3\30e272dd6029d5a9134ab8b0b2477e49\transformed\viewbinding-7.1.3\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\CIKO\.gradle\caches\transforms-3\2b35e19e499948adea817247d236a47f\transformed\material-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\CIKO\.gradle\caches\transforms-3\2b35e19e499948adea817247d236a47f\transformed\material-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\CIKO\.gradle\caches\transforms-3\f6dba5d15859c8d5410e7c956c1f1449\transformed\constraintlayout-2.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\CIKO\.gradle\caches\transforms-3\f6dba5d15859c8d5410e7c956c1f1449\transformed\constraintlayout-2.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\CIKO\.gradle\caches\transforms-3\66c1aa9b72b227650eb373aa54dfdbbb\transformed\appcompat-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\CIKO\.gradle\caches\transforms-3\66c1aa9b72b227650eb373aa54dfdbbb\transformed\appcompat-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.intuit.sdp:sdp-android:1.0.6] C:\Users\CIKO\.gradle\caches\transforms-3\238e8122958ea39249b25d83f3983f92\transformed\sdp-android-1.0.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.intuit.sdp:sdp-android:1.0.6] C:\Users\CIKO\.gradle\caches\transforms-3\238e8122958ea39249b25d83f3983f92\transformed\sdp-android-1.0.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.intuit.ssp:ssp-android:1.0.6] C:\Users\CIKO\.gradle\caches\transforms-3\cf9d8009f2e5e615538393e7021b0b3b\transformed\ssp-android-1.0.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.intuit.ssp:ssp-android:1.0.6] C:\Users\CIKO\.gradle\caches\transforms-3\cf9d8009f2e5e615538393e7021b0b3b\transformed\ssp-android-1.0.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.makeramen:roundedimageview:2.3.0] C:\Users\CIKO\.gradle\caches\transforms-3\cc8b8a8056771498d4ee43a15f3b5b0d\transformed\roundedimageview-2.3.0\AndroidManifest.xml:7:5-43
+MERGED from [com.makeramen:roundedimageview:2.3.0] C:\Users\CIKO\.gradle\caches\transforms-3\cc8b8a8056771498d4ee43a15f3b5b0d\transformed\roundedimageview-2.3.0\AndroidManifest.xml:7:5-43
+MERGED from [com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.firebase:firebase-firestore:24.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\1bdc2d1a0ee957f6970b921ca8c877a6\transformed\firebase-firestore-24.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:24.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\1bdc2d1a0ee957f6970b921ca8c877a6\transformed\firebase-firestore-24.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\9b3bb4b5e316bf67af3af47d801b22db\transformed\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\9b3bb4b5e316bf67af3af47d801b22db\transformed\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\34351c5de9167ff54473031e2088ce15\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\34351c5de9167ff54473031e2088ce15\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta05] C:\Users\CIKO\.gradle\caches\transforms-3\2f30c19f776f8fd3d2de42c17775368e\transformed\firebase-appcheck-interop-16.0.0-beta05\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta05] C:\Users\CIKO\.gradle\caches\transforms-3\2f30c19f776f8fd3d2de42c17775368e\transformed\firebase-appcheck-interop-16.0.0-beta05\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\d331e8744030f4b396f7e629cd44f63f\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\d331e8744030f4b396f7e629cd44f63f\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\9676a389bb62eadf5c36cf3412b457fa\transformed\play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\9676a389bb62eadf5c36cf3412b457fa\transformed\play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\f8db782c4ffa65404c78b85c751bec38\transformed\play-services-cloud-messaging-17.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\f8db782c4ffa65404c78b85c751bec38\transformed\play-services-cloud-messaging-17.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\72d22f6a14ee16e07455e8421bced053\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\72d22f6a14ee16e07455e8421bced053\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-datatransport:18.1.1] C:\Users\CIKO\.gradle\caches\transforms-3\bcbec35d0698f239911d95bc90208284\transformed\firebase-datatransport-18.1.1\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-datatransport:18.1.1] C:\Users\CIKO\.gradle\caches\transforms-3\bcbec35d0698f239911d95bc90208284\transformed\firebase-datatransport-18.1.1\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\570216b2a346f4461e915c57fe8b149f\transformed\firebase-installations-17.0.1\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\570216b2a346f4461e915c57fe8b149f\transformed\firebase-installations-17.0.1\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d90c0e548ad836e1bcd7a2507c334a87\transformed\firebase-auth-interop-19.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d90c0e548ad836e1bcd7a2507c334a87\transformed\firebase-auth-interop-19.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\99c9f4d55a69134a1a48ac6baa0b923c\transformed\firebase-common-20.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\99c9f4d55a69134a1a48ac6baa0b923c\transformed\firebase-common-20.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\9d2c7e49d39723ab304ffb3f97f0f8b6\transformed\firebase-iid-interop-17.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\9d2c7e49d39723ab304ffb3f97f0f8b6\transformed\firebase-iid-interop-17.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\3d4d8c5d328c270dd7af0804074451b9\transformed\firebase-installations-interop-17.0.1\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\3d4d8c5d328c270dd7af0804074451b9\transformed\firebase-installations-interop-17.0.1\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\1c63f971c3a347c46e8eeade49fd2a17\transformed\play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\1c63f971c3a347c46e8eeade49fd2a17\transformed\play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\56a8f38414ad8b0f8910be818864972f\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\56a8f38414ad8b0f8910be818864972f\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\12218c671e595a9d0cb78468d9cd5eaa\transformed\play-services-basement-18.0.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\12218c671e595a9d0cb78468d9cd5eaa\transformed\play-services-basement-18.0.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\CIKO\.gradle\caches\transforms-3\caae55629a612cf6f3d6b983a32c3604\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\CIKO\.gradle\caches\transforms-3\caae55629a612cf6f3d6b983a32c3604\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\CIKO\.gradle\caches\transforms-3\7cf66cb37a729c24c71d739243672670\transformed\activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\CIKO\.gradle\caches\transforms-3\7cf66cb37a729c24c71d739243672670\transformed\activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\CIKO\.gradle\caches\transforms-3\22d513c132a154ff3f471a3be419f519\transformed\appcompat-resources-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\CIKO\.gradle\caches\transforms-3\22d513c132a154ff3f471a3be419f519\transformed\appcompat-resources-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\796066bd507228fb94e977ba6f97cc1d\transformed\emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\796066bd507228fb94e977ba6f97cc1d\transformed\emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\caa275d550273cc914c299f44dc00c16\transformed\emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\caa275d550273cc914c299f44dc00c16\transformed\emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\CIKO\.gradle\caches\transforms-3\325aa0ad16ae775a24737d389d640745\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\CIKO\.gradle\caches\transforms-3\325aa0ad16ae775a24737d389d640745\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\d1d58cedf41307cb89edca0c0c271eef\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\d1d58cedf41307cb89edca0c0c271eef\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\36d8331f3bd478ef1af92093d3fcadd6\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\36d8331f3bd478ef1af92093d3fcadd6\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\CIKO\.gradle\caches\transforms-3\5a884c4b2d8bb1be07045495bd141cb8\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\CIKO\.gradle\caches\transforms-3\5a884c4b2d8bb1be07045495bd141cb8\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\a2f486a4596b07562687024430b500ad\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\a2f486a4596b07562687024430b500ad\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\e7a96d8ec2a79a2cef5ff7810e9c4e09\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\e7a96d8ec2a79a2cef5ff7810e9c4e09\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\5be25f36088b0edd5d0a653a3cef1f9b\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\5be25f36088b0edd5d0a653a3cef1f9b\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\f59d8ffe6564cfd3eb97a4c7e5a7a8f4\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\f59d8ffe6564cfd3eb97a4c7e5a7a8f4\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\b5ae8c22320ee28543b2e2a320c83409\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\b5ae8c22320ee28543b2e2a320c83409\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\4572610d8b28f7c8647c8240dff9ce14\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\4572610d8b28f7c8647c8240dff9ce14\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\0a8112900229384c9e43723409cf393d\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\0a8112900229384c9e43723409cf393d\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\CIKO\.gradle\caches\transforms-3\9e5e6bcad516c79624aa3e6f33c23a91\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\CIKO\.gradle\caches\transforms-3\9e5e6bcad516c79624aa3e6f33c23a91\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\38a4f089c16a2daa407862365aa635b5\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\38a4f089c16a2daa407862365aa635b5\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\CIKO\.gradle\caches\transforms-3\30df83d67574094b1814379a7142da69\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\CIKO\.gradle\caches\transforms-3\30df83d67574094b1814379a7142da69\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\2268a9705fb8d315073f09003fca52b3\transformed\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\2268a9705fb8d315073f09003fca52b3\transformed\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\CIKO\.gradle\caches\transforms-3\1697449995118bf42bdc678bc352ccca\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\CIKO\.gradle\caches\transforms-3\1697449995118bf42bdc678bc352ccca\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\32ce499610442ef73fdd6bfa096066b4\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\32ce499610442ef73fdd6bfa096066b4\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\db5af1c6cb689434a369192b2e1c0206\transformed\transport-backend-cct-3.1.2\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\db5af1c6cb689434a369192b2e1c0206\transformed\transport-backend-cct-3.1.2\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\3bb2da771958b109fb30a11801e532b7\transformed\transport-runtime-3.1.2\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\3bb2da771958b109fb30a11801e532b7\transformed\transport-runtime-3.1.2\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\9ffac90473c17200deeb13fbcb6be532\transformed\transport-api-3.0.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\9ffac90473c17200deeb13fbcb6be532\transformed\transport-api-3.0.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\5c9fc418ae576d1b1d0259786459fe1d\transformed\firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\5c9fc418ae576d1b1d0259786459fe1d\transformed\firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\bb7487b1b2735b1a82057b29fe36146d\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\bb7487b1b2735b1a82057b29fe36146d\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\CIKO\.gradle\caches\transforms-3\6be069e02f4ec54574baccc2ebfd2e3e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\CIKO\.gradle\caches\transforms-3\6be069e02f4ec54574baccc2ebfd2e3e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\CIKO\.gradle\caches\transforms-3\2b326b9818b25997fcfa4ca0bff064a3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\CIKO\.gradle\caches\transforms-3\2b326b9818b25997fcfa4ca0bff064a3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\708913544c148eb73eea5852cacf5a2f\transformed\startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\708913544c148eb73eea5852cacf5a2f\transformed\startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\00618d1ab2fc8a540accbcc838b5a340\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\00618d1ab2fc8a540accbcc838b5a340\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\9db9b7ce38df97a9c903f2b5f523af66\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\9db9b7ce38df97a9c903f2b5f523af66\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\CIKO\.gradle\caches\transforms-3\b7dc78e8c039bc57abec856e942f6a1f\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\CIKO\.gradle\caches\transforms-3\b7dc78e8c039bc57abec856e942f6a1f\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\CIKO\.gradle\caches\transforms-3\8cb2c72f5edd7db29544b16d1fa554aa\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\CIKO\.gradle\caches\transforms-3\8cb2c72f5edd7db29544b16d1fa554aa\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\9fc609192e865e22339184306ea40540\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\9fc609192e865e22339184306ea40540\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\c7467ae046ff2cdedb0c4a8f0bd94d35\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\c7467ae046ff2cdedb0c4a8f0bd94d35\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\b9f9ea554a48e7918f9b738df74f150c\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\b9f9ea554a48e7918f9b738df74f150c\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\382448082e1649fdcb6c4bc4cfda28e2\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\382448082e1649fdcb6c4bc4cfda28e2\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\b054c3853d7367f89b2e55f252ac9b20\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\b054c3853d7367f89b2e55f252ac9b20\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\562973d62c0db0280790428bf0ff0039\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\562973d62c0db0280790428bf0ff0039\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [io.grpc:grpc-android:1.44.1] C:\Users\CIKO\.gradle\caches\transforms-3\716135c303660ed15424ea2647d90b62\transformed\grpc-android-1.44.1\AndroidManifest.xml:5:5-7:41
+MERGED from [io.grpc:grpc-android:1.44.1] C:\Users\CIKO\.gradle\caches\transforms-3\716135c303660ed15424ea2647d90b62\transformed\grpc-android-1.44.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\108183edb3fe9dc9a94a38d0431aab54\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\108183edb3fe9dc9a94a38d0431aab54\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+INJECTED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml
+INJECTED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml
+		INJECTED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml
+		ADDED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml
+		INJECTED from D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\1bdc2d1a0ee957f6970b921ca8c877a6\transformed\firebase-firestore-24.1.0\AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\1bdc2d1a0ee957f6970b921ca8c877a6\transformed\firebase-firestore-24.1.0\AndroidManifest.xml:13:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\f8db782c4ffa65404c78b85c751bec38\transformed\play-services-cloud-messaging-17.0.1\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\f8db782c4ffa65404c78b85c751bec38\transformed\play-services-cloud-messaging-17.0.1\AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\570216b2a346f4461e915c57fe8b149f\transformed\firebase-installations-17.0.1\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\570216b2a346f4461e915c57fe8b149f\transformed\firebase-installations-17.0.1\AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\db5af1c6cb689434a369192b2e1c0206\transformed\transport-backend-cct-3.1.2\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\db5af1c6cb689434a369192b2e1c0206\transformed\transport-backend-cct-3.1.2\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\3bb2da771958b109fb30a11801e532b7\transformed\transport-runtime-3.1.2\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\3bb2da771958b109fb30a11801e532b7\transformed\transport-runtime-3.1.2\AndroidManifest.xml:22:5-79
+MERGED from [io.grpc:grpc-android:1.44.1] C:\Users\CIKO\.gradle\caches\transforms-3\716135c303660ed15424ea2647d90b62\transformed\grpc-android-1.44.1\AndroidManifest.xml:9:5-79
+MERGED from [io.grpc:grpc-android:1.44.1] C:\Users\CIKO\.gradle\caches\transforms-3\716135c303660ed15424ea2647d90b62\transformed\grpc-android-1.44.1\AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:25:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:26:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\f8db782c4ffa65404c78b85c751bec38\transformed\play-services-cloud-messaging-17.0.1\AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\f8db782c4ffa65404c78b85c751bec38\transformed\play-services-cloud-messaging-17.0.1\AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:26:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:28:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\f8db782c4ffa65404c78b85c751bec38\transformed\play-services-cloud-messaging-17.0.1\AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\f8db782c4ffa65404c78b85c751bec38\transformed\play-services-cloud-messaging-17.0.1\AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:28:22-79
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:31:9-38:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:33:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:34:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:32:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:35:13-37:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:36:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:36:25-78
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:44:9-51:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:47:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:46:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:45:13-82
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:52:9-58:19
+MERGED from [com.google.firebase:firebase-firestore:24.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\1bdc2d1a0ee957f6970b921ca8c877a6\transformed\firebase-firestore-24.1.0\AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:24.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\1bdc2d1a0ee957f6970b921ca8c877a6\transformed\firebase-firestore-24.1.0\AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.1] C:\Users\CIKO\.gradle\caches\transforms-3\bcbec35d0698f239911d95bc90208284\transformed\firebase-datatransport-18.1.1\AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.1] C:\Users\CIKO\.gradle\caches\transforms-3\bcbec35d0698f239911d95bc90208284\transformed\firebase-datatransport-18.1.1\AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\570216b2a346f4461e915c57fe8b149f\transformed\firebase-installations-17.0.1\AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\570216b2a346f4461e915c57fe8b149f\transformed\firebase-installations-17.0.1\AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-common:20.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\99c9f4d55a69134a1a48ac6baa0b923c\transformed\firebase-common-20.1.0\AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\99c9f4d55a69134a1a48ac6baa0b923c\transformed\firebase-common-20.1.0\AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:54:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\99c9f4d55a69134a1a48ac6baa0b923c\transformed\firebase-common-20.1.0\AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\99c9f4d55a69134a1a48ac6baa0b923c\transformed\firebase-common-20.1.0\AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:53:13-84
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:55:13-57:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:57:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:56:17-119
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:24.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\1bdc2d1a0ee957f6970b921ca8c877a6\transformed\firebase-firestore-24.1.0\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:24.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\1bdc2d1a0ee957f6970b921ca8c877a6\transformed\firebase-firestore-24.1.0\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\1bdc2d1a0ee957f6970b921ca8c877a6\transformed\firebase-firestore-24.1.0\AndroidManifest.xml:21:17-111
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\9676a389bb62eadf5c36cf3412b457fa\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\9676a389bb62eadf5c36cf3412b457fa\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\9676a389bb62eadf5c36cf3412b457fa\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\9676a389bb62eadf5c36cf3412b457fa\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:18.1.1] C:\Users\CIKO\.gradle\caches\transforms-3\bcbec35d0698f239911d95bc90208284\transformed\firebase-datatransport-18.1.1\AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:18.1.1] C:\Users\CIKO\.gradle\caches\transforms-3\bcbec35d0698f239911d95bc90208284\transformed\firebase-datatransport-18.1.1\AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:18.1.1] C:\Users\CIKO\.gradle\caches\transforms-3\bcbec35d0698f239911d95bc90208284\transformed\firebase-datatransport-18.1.1\AndroidManifest.xml:29:17-115
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\570216b2a346f4461e915c57fe8b149f\transformed\firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\570216b2a346f4461e915c57fe8b149f\transformed\firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\570216b2a346f4461e915c57fe8b149f\transformed\firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\99c9f4d55a69134a1a48ac6baa0b923c\transformed\firebase-common-20.1.0\AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\99c9f4d55a69134a1a48ac6baa0b923c\transformed\firebase-common-20.1.0\AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\99c9f4d55a69134a1a48ac6baa0b923c\transformed\firebase-common-20.1.0\AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\99c9f4d55a69134a1a48ac6baa0b923c\transformed\firebase-common-20.1.0\AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\99c9f4d55a69134a1a48ac6baa0b923c\transformed\firebase-common-20.1.0\AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\99c9f4d55a69134a1a48ac6baa0b923c\transformed\firebase-common-20.1.0\AndroidManifest.xml:27:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\12218c671e595a9d0cb78468d9cd5eaa\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\12218c671e595a9d0cb78468d9cd5eaa\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\12218c671e595a9d0cb78468d9cd5eaa\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\caa275d550273cc914c299f44dc00c16\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\CIKO\.gradle\caches\transforms-3\2b326b9818b25997fcfa4ca0bff064a3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\CIKO\.gradle\caches\transforms-3\2b326b9818b25997fcfa4ca0bff064a3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\708913544c148eb73eea5852cacf5a2f\transformed\startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\708913544c148eb73eea5852cacf5a2f\transformed\startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\caa275d550273cc914c299f44dc00c16\transformed\emoji2-1.0.0\AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\caa275d550273cc914c299f44dc00c16\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\caa275d550273cc914c299f44dc00c16\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\caa275d550273cc914c299f44dc00c16\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\caa275d550273cc914c299f44dc00c16\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\caa275d550273cc914c299f44dc00c16\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\caa275d550273cc914c299f44dc00c16\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\db5af1c6cb689434a369192b2e1c0206\transformed\transport-backend-cct-3.1.2\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\3bb2da771958b109fb30a11801e532b7\transformed\transport-runtime-3.1.2\AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\3bb2da771958b109fb30a11801e532b7\transformed\transport-runtime-3.1.2\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\db5af1c6cb689434a369192b2e1c0206\transformed\transport-backend-cct-3.1.2\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\db5af1c6cb689434a369192b2e1c0206\transformed\transport-backend-cct-3.1.2\AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\db5af1c6cb689434a369192b2e1c0206\transformed\transport-backend-cct-3.1.2\AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\db5af1c6cb689434a369192b2e1c0206\transformed\transport-backend-cct-3.1.2\AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\db5af1c6cb689434a369192b2e1c0206\transformed\transport-backend-cct-3.1.2\AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\3bb2da771958b109fb30a11801e532b7\transformed\transport-runtime-3.1.2\AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\3bb2da771958b109fb30a11801e532b7\transformed\transport-runtime-3.1.2\AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\3bb2da771958b109fb30a11801e532b7\transformed\transport-runtime-3.1.2\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\3bb2da771958b109fb30a11801e532b7\transformed\transport-runtime-3.1.2\AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\3bb2da771958b109fb30a11801e532b7\transformed\transport-runtime-3.1.2\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\3bb2da771958b109fb30a11801e532b7\transformed\transport-runtime-3.1.2\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\3bb2da771958b109fb30a11801e532b7\transformed\transport-runtime-3.1.2\AndroidManifest.xml:33:13-132
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\CIKO\.gradle\caches\transforms-3\2b326b9818b25997fcfa4ca0bff064a3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\CIKO\.gradle\caches\transforms-3\2b326b9818b25997fcfa4ca0bff064a3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\CIKO\.gradle\caches\transforms-3\2b326b9818b25997fcfa4ca0bff064a3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
