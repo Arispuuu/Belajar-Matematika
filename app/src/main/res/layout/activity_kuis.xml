@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/backroudmenu"
-    tools:context=".matematika.MateriActivity">
+    tools:context=".matematika.KuisActivity">
 
     <View
         android:id="@+id/logo"
@@ -31,7 +31,7 @@
             android:layout_height="match_parent">
 
             <ImageButton
-                android:id="@+id/btBulat"
+                android:id="@+id/KOperasi"
                 android:layout_width="170dp"
                 android:layout_height="110dp"
                 android:layout_marginEnd="10dp"
@@ -40,11 +40,11 @@
             </ImageButton>
 
             <ImageButton
-                android:id="@+id/btOperasi"
+                android:id="@+id/KOperasi2"
                 android:layout_width="170dp"
                 android:layout_height="110dp"
                 android:layout_marginEnd="10dp"
-                android:background="@drawable/kkecepatan">
+                android:background="@drawable/koperasi2">
 
             </ImageButton>
 
@@ -53,7 +53,7 @@
                 android:layout_width="170dp"
                 android:layout_height="110dp"
                 android:layout_marginEnd="10dp"
-                android:background="@drawable/kskala">
+                android:background="@drawable/moperasi">
 
             </ImageButton>
 
@@ -62,7 +62,16 @@
                 android:layout_width="170dp"
                 android:layout_height="110dp"
                 android:layout_marginEnd="10dp"
-                android:background="@drawable/kbangunr">
+                android:background="@drawable/moperasi">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/materi6"
+                android:layout_width="170dp"
+                android:layout_height="110dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/moperasi">
 
             </ImageButton>
 
@@ -73,8 +82,8 @@
     <View
         android:layout_width="120dp"
         android:layout_height="70dp"
-        android:layout_marginLeft="10dp"
         android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
         android:background="@drawable/bgkembali" />
 
     <ImageButton

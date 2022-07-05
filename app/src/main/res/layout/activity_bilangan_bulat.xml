@@ -13,7 +13,7 @@
         android:layout_height="50dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
-        android:background="@drawable/lg_materi" />
+        android:background="@drawable/tbkembali" />
 
     <ScrollView
         android:layout_width="wrap_content"
@@ -42,7 +42,7 @@
                 android:layout_height="60dp"
                 android:layout_gravity="center"
                 android:layout_marginBottom="5dp"
-                android:background="@drawable/tb_materi">
+                android:background="@drawable/tbkembali">
 
             </ImageButton>
 
@@ -52,27 +52,25 @@
                 android:layout_height="60dp"
                 android:layout_gravity="center"
                 android:layout_marginBottom="5dp"
-                android:background="@drawable/tb_materi">
+                android:background="@drawable/tbkembali">
 
             </ImageButton>
-
             <ImageButton
                 android:id="@+id/s3"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_gravity="center"
                 android:layout_marginBottom="5dp"
-                android:background="@drawable/tb_materi">
+                android:background="@drawable/tbkembali">
 
             </ImageButton>
-
             <ImageButton
                 android:id="@+id/s4"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_gravity="center"
                 android:layout_marginBottom="5dp"
-                android:background="@drawable/tb_materi">
+                android:background="@drawable/tbkembali">
 
             </ImageButton>
 
@@ -82,7 +80,7 @@
                 android:layout_height="60dp"
                 android:layout_gravity="center"
                 android:layout_marginBottom="5dp"
-                android:background="@drawable/tb_materi">
+                android:background="@drawable/tbkembali">
 
             </ImageButton>
 
@@ -92,7 +90,7 @@
                 android:layout_height="60dp"
                 android:layout_gravity="center"
                 android:layout_marginBottom="5dp"
-                android:background="@drawable/tb_materi">
+                android:background="@drawable/tbkembali">
 
             </ImageButton>
 
@@ -102,7 +100,7 @@
                 android:layout_height="60dp"
                 android:layout_gravity="center"
                 android:layout_marginBottom="5dp"
-                android:background="@drawable/tb_materi">
+                android:background="@drawable/tbkembali">
 
             </ImageButton>
 
@@ -112,7 +110,7 @@
                 android:layout_height="60dp"
                 android:layout_gravity="center"
                 android:layout_marginBottom="5dp"
-                android:background="@drawable/tb_materi">
+                android:background="@drawable/tbkembali">
 
             </ImageButton>
 
@@ -122,7 +120,7 @@
                 android:layout_height="60dp"
                 android:layout_gravity="center"
                 android:layout_marginBottom="5dp"
-                android:background="@drawable/tb_materi">
+                android:background="@drawable/tbkembali">
 
             </ImageButton>
 
@@ -132,7 +130,7 @@
                 android:layout_height="60dp"
                 android:layout_gravity="center"
                 android:layout_marginBottom="5dp"
-                android:background="@drawable/tb_materi">
+                android:background="@drawable/tbkembali">
 
             </ImageButton>
 
@@ -142,9 +140,10 @@
                 android:layout_height="60dp"
                 android:layout_gravity="center"
                 android:layout_marginBottom="5dp"
-                android:background="@drawable/tb_materi">
+                android:background="@drawable/tbkembali">
 
             </ImageButton>
+
         </LinearLayout>
     </ScrollView>
 
@@ -167,7 +166,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="5dp"
         android:layout_marginTop="5dp"
-        android:background="@drawable/bt_back" />
+        android:background="@color/wood" />
 
     <ImageButton
         android:id="@+id/bthome"

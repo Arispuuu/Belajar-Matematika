@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backroudmenu"
+    tools:context=".kuis2.ResultOperasi2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bgresulkuis"
+        android:layout_marginRight="300dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:layout_marginTop="120dp"
+            android:text="Nilai :"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:paddingTop="10dp"
+            android:textColor="#571601"/>
+
+        <TextView
+            android:id="@+id/percent_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="60dp"
+            android:layout_marginTop="15dp"
+            android:padding="0dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:paddingTop="10dp"
+            android:textColor="#571601"/>
+
+        <TextView
+            android:id="@+id/correct_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:paddingTop="10dp"
+            android:textColor="#571601"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="570dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bgkayu">
+
+        <ImageButton
+            android:layout_width="190dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/tbulangi"
+            android:onClick="restartgame2"/>
+
+        <ImageButton
+            android:id="@+id/exit"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="90dp"
+            android:background="@drawable/tbkkembali" />
+    </RelativeLayout>
+
+</RelativeLayout>

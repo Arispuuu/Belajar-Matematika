@@ -12,14 +12,33 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BelajarMatematika">
         <activity
-            android:name=".Quiz.ResultBulatActivity"
+            android:name=".kuis2.ResultOperasi2Activity"
+            android:screenOrientation="landscape"
             android:exported="false" />
         <activity
-            android:name=".Quiz.QuizBulatActivity"
-            android:exported="false" />
+            android:name=".kuis2.KuisOperasi2Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
         <activity
-            android:name=".menuKuis.KuisActivity"
-            android:exported="false" />
+            android:name=".kuis2.Skuis2Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Kuis.Skuis1Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".matematika.KuisActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Kuis.ResultOperasiActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Kuis.KuizOperasiActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
         <activity
             android:name=".bilanganBulat.BilanganBulatActivity"
             android:exported="false"
