@@ -15,6 +15,7 @@ public class Kuis2 {
             "Soal 9",
             "Soal 10",
     };
+
     private String mChoice[] [] = {
             {"A","B","C"}, //soal 1
             {"A","B","C"}, //soal 2

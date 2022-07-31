@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.WindowManager;
 
 import com.c.belajarmatematika.Kuis.Skuis1Activity;
+import com.c.belajarmatematika.Kuis3.Skuis3Activity;
+import com.c.belajarmatematika.Kuis4.Skuis4Activity;
 import com.c.belajarmatematika.databinding.ActivityKuisBinding;
 import com.c.belajarmatematika.kuis2.Skuis2Activity;
 
@@ -30,6 +32,10 @@ public class KuisActivity extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(), Skuis1Activity.class)));
         binding.KOperasi2.setOnClickListener(v ->
                 startActivity(new Intent(getApplicationContext(), Skuis2Activity.class)));
+        binding.materi3.setOnClickListener(v ->
+                startActivity(new Intent(getApplicationContext(), Skuis3Activity.class)));
+        binding.materi5.setOnClickListener(v ->
+                startActivity(new Intent(getApplicationContext(), Skuis4Activity.class)));
 
     }
 }

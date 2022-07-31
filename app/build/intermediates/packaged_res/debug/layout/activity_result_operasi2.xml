@@ -64,15 +64,15 @@
         android:layout_marginLeft="570dp"
         android:layout_marginTop="150dp"
         android:layout_marginRight="40dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="0dp"
         android:background="@drawable/bgkayu">
 
         <ImageButton
             android:layout_width="190dp"
             android:layout_height="70dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="8dp"
             android:background="@drawable/tbulangi"
-            android:onClick="restartgame2"/>
+            android:onClick="restartgame2" />
 
         <ImageButton
             android:id="@+id/exit"

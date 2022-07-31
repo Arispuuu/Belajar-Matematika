@@ -24,6 +24,38 @@
         android:testOnly="true"
         android:theme="@style/Theme.BelajarMatematika" >
         <activity
+            android:name="com.c.belajarmatematika.materiOperasi.Operasi2Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.c.belajarmatematika.materiOperasi.Operasi1Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.c.belajarmatematika.Kuis4.ResultSkalaActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.c.belajarmatematika.Kuis4.KuisSkalaActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.c.belajarmatematika.Kuis4.Skuis4Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.c.belajarmatematika.Kuis3.ResultKecepatan1Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.c.belajarmatematika.Kuis3.KuisKecepatan1Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.c.belajarmatematika.Kuis3.Skuis3Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
             android:name="com.c.belajarmatematika.kuis2.ResultOperasi2Activity"
             android:exported="false"
             android:screenOrientation="landscape" />

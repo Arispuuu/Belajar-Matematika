@@ -12,9 +12,41 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BelajarMatematika">
         <activity
-            android:name=".kuis2.ResultOperasi2Activity"
+            android:name=".materiOperasi.Operasi2Activity"
             android:screenOrientation="landscape"
             android:exported="false" />
+        <activity
+            android:name=".materiOperasi.Operasi1Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Kuis4.ResultSkalaActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Kuis4.KuisSkalaActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Kuis4.Skuis4Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Kuis3.ResultKecepatan1Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Kuis3.KuisKecepatan1Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Kuis3.Skuis3Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".kuis2.ResultOperasi2Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
         <activity
             android:name=".kuis2.KuisOperasi2Activity"
             android:exported="false"

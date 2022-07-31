@@ -12,6 +12,7 @@ import com.c.belajarmatematika.R;
 import com.c.belajarmatematika.activities.MainActivity;
 import com.c.belajarmatematika.bilanganBulat.BilanganBulatActivity;
 import com.c.belajarmatematika.databinding.ActivityBilanganBulatBinding;
+import com.c.belajarmatematika.materiOperasi.Operasi1Activity;
 
 public class MateriActivity extends AppCompatActivity {
 
@@ -37,7 +38,7 @@ public class MateriActivity extends AppCompatActivity {
         pindah.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MateriActivity.this, BilanganBulatActivity.class);
+                Intent intent = new Intent(MateriActivity.this, Operasi1Activity.class);
                 startActivity(intent);
 
             }
