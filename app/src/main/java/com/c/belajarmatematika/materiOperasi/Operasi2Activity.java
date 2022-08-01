@@ -29,7 +29,7 @@ public class Operasi2Activity extends AppCompatActivity {
         binding.bthome.setOnClickListener(v ->
                 startActivity(new Intent(getApplicationContext(), MenuActivity.class)));
         binding.lanjut.setOnClickListener(v ->
-                startActivity(new Intent(getApplicationContext(), Skuis1Activity.class)));
+                startActivity(new Intent(getApplicationContext(), Operasi3Activity.class)));
         binding.kembali.setOnClickListener(v ->
                 startActivity(new Intent(getApplicationContext(), Operasi1Activity.class)));
     }

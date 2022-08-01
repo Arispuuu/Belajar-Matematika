@@ -24,6 +24,50 @@
         android:testOnly="true"
         android:theme="@style/Theme.BelajarMatematika" >
         <activity
+            android:name="com.c.belajarmatematika.materiOperasi.Operasi13Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.c.belajarmatematika.materiOperasi.Operasi12Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.c.belajarmatematika.materiOperasi.Operasi11Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.c.belajarmatematika.materiOperasi.Operasi10Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.c.belajarmatematika.materiOperasi.Operasi9Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.c.belajarmatematika.materiOperasi.Operasi8Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.c.belajarmatematika.materiOperasi.Operasi7Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.c.belajarmatematika.materiOperasi.Operasi6Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.c.belajarmatematika.materiOperasi.Operasi5Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.c.belajarmatematika.materiOperasi.Operasi4Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.c.belajarmatematika.materiOperasi.Operasi3Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
             android:name="com.c.belajarmatematika.materiOperasi.Operasi2Activity"
             android:exported="false"
             android:screenOrientation="landscape" />

@@ -35,7 +35,7 @@
                 android:layout_width="170dp"
                 android:layout_height="110dp"
                 android:layout_marginEnd="10dp"
-                android:background="@drawable/koperasi">
+                android:background="@drawable/moperasi">
 
             </ImageButton>
 
@@ -44,7 +44,7 @@
                 android:layout_width="170dp"
                 android:layout_height="110dp"
                 android:layout_marginEnd="10dp"
-                android:background="@drawable/kkecepatan">
+                android:background="@drawable/mkecepatan">
 
             </ImageButton>
 
@@ -53,7 +53,7 @@
                 android:layout_width="170dp"
                 android:layout_height="110dp"
                 android:layout_marginEnd="10dp"
-                android:background="@drawable/kskala">
+                android:background="@drawable/mskala">
 
             </ImageButton>
 
@@ -62,7 +62,7 @@
                 android:layout_width="170dp"
                 android:layout_height="110dp"
                 android:layout_marginEnd="10dp"
-                android:background="@drawable/kbangunr">
+                android:background="@drawable/mbangun">
 
             </ImageButton>
 

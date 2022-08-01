@@ -12,9 +12,53 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BelajarMatematika">
         <activity
-            android:name=".materiOperasi.Operasi2Activity"
+            android:name=".materiOperasi.Operasi13Activity"
             android:screenOrientation="landscape"
             android:exported="false" />
+        <activity
+            android:name=".materiOperasi.Operasi12Activity"
+            android:screenOrientation="landscape"
+            android:exported="false" />
+        <activity
+            android:name=".materiOperasi.Operasi11Activity"
+            android:screenOrientation="landscape"
+            android:exported="false" />
+        <activity
+            android:name=".materiOperasi.Operasi10Activity"
+            android:screenOrientation="landscape"
+            android:exported="false" />
+        <activity
+            android:name=".materiOperasi.Operasi9Activity"
+            android:screenOrientation="landscape"
+            android:exported="false" />
+        <activity
+            android:name=".materiOperasi.Operasi8Activity"
+            android:screenOrientation="landscape"
+            android:exported="false" />
+        <activity
+            android:name=".materiOperasi.Operasi7Activity"
+            android:screenOrientation="landscape"
+            android:exported="false" />
+        <activity
+            android:name=".materiOperasi.Operasi6Activity"
+            android:screenOrientation="landscape"
+            android:exported="false" />
+        <activity
+            android:name=".materiOperasi.Operasi5Activity"
+            android:screenOrientation="landscape"
+            android:exported="false" />
+        <activity
+            android:name=".materiOperasi.Operasi4Activity"
+            android:screenOrientation="landscape"
+            android:exported="false" />
+        <activity
+            android:name=".materiOperasi.Operasi3Activity"
+            android:screenOrientation="landscape"
+            android:exported="false" />
+        <activity
+            android:name=".materiOperasi.Operasi2Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
         <activity
             android:name=".materiOperasi.Operasi1Activity"
             android:exported="false"
