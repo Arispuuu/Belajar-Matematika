@@ -7,68 +7,70 @@
     android:background="@drawable/backroudmenu"
     tools:context=".matematika.MateriActivity">
 
-    <View
+    <RelativeLayout
         android:id="@+id/logo"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="70dp"
         android:layout_marginRight="40dp"
-        android:background="@drawable/bgmenumateri" />
+        android:background="@drawable/bgmenumateri">
 
-    <HorizontalScrollView
-        android:id="@+id/horizontal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginLeft="120dp"
-        android:layout_marginRight="120dp"
-        android:layout_marginBottom="120dp">
-
-        <LinearLayout
+        <HorizontalScrollView
+            android:id="@+id/horizontal"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="90dp"
+            android:layout_marginRight="90dp">
 
-            <ImageButton
-                android:id="@+id/btBulat"
-                android:layout_width="170dp"
-                android:layout_height="110dp"
-                android:layout_marginEnd="10dp"
-                android:background="@drawable/moperasi">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
 
-            </ImageButton>
+                <ImageButton
+                    android:id="@+id/btBulat"
+                    android:layout_width="170dp"
+                    android:layout_height="110dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/moperasi">
 
-            <ImageButton
-                android:id="@+id/btOperasi"
-                android:layout_width="170dp"
-                android:layout_height="110dp"
-                android:layout_marginEnd="10dp"
-                android:background="@drawable/mkecepatan">
+                </ImageButton>
 
-            </ImageButton>
+                <ImageButton
+                    android:id="@+id/btOperasi"
+                    android:layout_width="170dp"
+                    android:layout_height="110dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/mkecepatan">
 
-            <ImageButton
-                android:id="@+id/materi3"
-                android:layout_width="170dp"
-                android:layout_height="110dp"
-                android:layout_marginEnd="10dp"
-                android:background="@drawable/mskala">
+                </ImageButton>
 
-            </ImageButton>
+                <ImageButton
+                    android:id="@+id/materi3"
+                    android:layout_width="170dp"
+                    android:layout_height="110dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/mskala">
 
-            <ImageButton
-                android:id="@+id/materi5"
-                android:layout_width="170dp"
-                android:layout_height="110dp"
-                android:layout_marginEnd="10dp"
-                android:background="@drawable/mbangun">
+                </ImageButton>
 
-            </ImageButton>
+                <ImageButton
+                    android:id="@+id/materi5"
+                    android:layout_width="170dp"
+                    android:layout_height="110dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/mbangun">
 
-        </LinearLayout>
+                </ImageButton>
 
-    </HorizontalScrollView>
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+    </RelativeLayout>
+
+
 
     <View
         android:layout_width="120dp"

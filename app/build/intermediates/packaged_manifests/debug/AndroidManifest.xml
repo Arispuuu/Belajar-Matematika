@@ -24,6 +24,26 @@
         android:testOnly="true"
         android:theme="@style/Theme.BelajarMatematika" >
         <activity
+            android:name="com.c.belajarmatematika.materiOperasi.OperasiSelesaiActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.c.belajarmatematika.materiOperasi.Operasi17Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.c.belajarmatematika.materiOperasi.Operasi16Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.c.belajarmatematika.materiOperasi.Operasi15Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.c.belajarmatematika.materiOperasi.Operasi14Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
             android:name="com.c.belajarmatematika.materiOperasi.Operasi13Activity"
             android:exported="false"
             android:screenOrientation="landscape" />

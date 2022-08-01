@@ -77,6 +77,12 @@ drawable mkecepatan
 drawable mo1
 drawable mo10
 drawable mo11
+drawable mo12
+drawable mo13
+drawable mo14
+drawable mo15
+drawable mo16
+drawable mo17
 drawable mo2
 drawable mo3
 drawable mo4
@@ -101,6 +107,7 @@ id answer_layout
 id btBulat
 id btOperasi
 id bthome
+id btulang
 id buttonKuis
 id buttonMateri
 id buttonSignIn
@@ -150,6 +157,7 @@ id s6
 id s7
 id s8
 id s9
+id skor
 id textAddImage
 id textAvailability
 id textCreateNewAccount
@@ -179,6 +187,10 @@ layout activity_operasi10
 layout activity_operasi11
 layout activity_operasi12
 layout activity_operasi13
+layout activity_operasi14
+layout activity_operasi15
+layout activity_operasi16
+layout activity_operasi17
 layout activity_operasi2
 layout activity_operasi3
 layout activity_operasi4
@@ -187,6 +199,7 @@ layout activity_operasi6
 layout activity_operasi7
 layout activity_operasi8
 layout activity_operasi9
+layout activity_operasi_selesai
 layout activity_quiz_operasi
 layout activity_result_kecepatan1
 layout activity_result_operasi

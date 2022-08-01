@@ -1,5 +1,13 @@
 [
     {
+        "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_operasi17.xml",
+        "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\layout\\activity_operasi17.xml"
+    },
+    {
+        "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_operasi14.xml",
+        "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\layout\\activity_operasi14.xml"
+    },
+    {
         "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_skuis1.xml",
         "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\layout\\activity_skuis1.xml"
     },
@@ -96,6 +104,10 @@
         "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\layout\\activity_kuis_operasi2.xml"
     },
     {
+        "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_operasi_selesai.xml",
+        "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\layout\\activity_operasi_selesai.xml"
+    },
+    {
         "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_users.xml",
         "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\layout\\activity_users.xml"
     },
@@ -110,6 +122,10 @@
     {
         "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_operasi10.xml",
         "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\layout\\activity_operasi10.xml"
+    },
+    {
+        "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_operasi15.xml",
+        "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\layout\\activity_operasi15.xml"
     },
     {
         "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_result_operasi.xml",
@@ -146,6 +162,10 @@
     {
         "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_result_kecepatan1.xml",
         "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\layout\\activity_result_kecepatan1.xml"
+    },
+    {
+        "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_operasi16.xml",
+        "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\layout\\activity_operasi16.xml"
     },
     {
         "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_operasi5.xml",

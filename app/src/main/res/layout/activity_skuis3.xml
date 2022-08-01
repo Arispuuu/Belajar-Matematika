@@ -25,25 +25,30 @@
         android:layout_marginBottom="120dp"
         android:background="@drawable/bgskuis">
 
-        <TextView
-            android:id="@+id/tx"
+        <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="40dp"
-            android:text="Kuis Operasi Hitung"
-            android:textColor="@color/primary"
-            android:textSize="30sp"
-            android:textStyle="bold" />
+            android:layout_centerInParent="true">
 
-        <ImageButton
-            android:id="@+id/mulai"
-            android:layout_width="150dp"
-            android:layout_height="80dp"
-            android:layout_below="@+id/tx"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/tbmulai" />
+            <TextView
+                android:id="@+id/tx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Kuis Operasi Hitung"
+                android:textColor="@color/primary"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/mulai"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:layout_below="@+id/tx"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/tbmulai" />
+
+        </RelativeLayout>
 
     </RelativeLayout>
 

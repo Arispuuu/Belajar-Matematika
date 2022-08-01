@@ -9,53 +9,62 @@
     android:background="@drawable/backroudmenu"
     tools:context=".Kuis.ResultOperasiActivity">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:background="@drawable/bgresulkuis"
+        android:layout_marginLeft="20dp"
         android:layout_marginRight="300dp"
         android:layout_marginBottom="50dp"
-        android:layout_marginLeft="20dp">
+        android:background="@drawable/bgresulkuis"
+        android:orientation="vertical">
 
-        <TextView
-
-            android:layout_width="match_parent"
+        <RelativeLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="25sp"
-            android:layout_marginTop="120dp"
-            android:text="Your Score"
-            android:textStyle="bold"
-            android:textAlignment="center"
-            android:paddingTop="10dp"
-            android:textColor="#571601"/>
+            android:layout_alignParentBottom="true">
 
-        <TextView
-            android:id="@+id/percent_textview"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="60dp"
-            android:layout_marginTop="15dp"
-            android:padding="0dp"
-            android:textStyle="bold"
-            android:textAlignment="center"
-            android:paddingTop="10dp"
-            android:textColor="#571601"/>
+            <TextView
+                android:id="@+id/skor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="Your Score"
+                android:textAlignment="center"
+                android:textColor="#571601"
+                android:textSize="25sp"
+                android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/correct_textview"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:textSize="20dp"
-            android:layout_marginLeft="50dp"
-            android:layout_marginRight="50dp"
-            android:textStyle="bold"
-            android:textAlignment="center"
-            android:paddingTop="10dp"
-            android:textColor="#571601"/>
+            <TextView
+                android:id="@+id/percent_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/skor"
+                android:layout_marginTop="10dp"
+                android:padding="0dp"
+                android:paddingTop="10dp"
+                android:textAlignment="center"
+                android:textColor="#571601"
+                android:textSize="60dp"
+                android:textStyle="bold" />
 
-    </LinearLayout>
+            <TextView
+                android:id="@+id/correct_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/percent_textview"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:paddingTop="10dp"
+                android:textAlignment="center"
+                android:textColor="#571601"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="40dp"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -68,6 +77,7 @@
         android:background="@drawable/bgkayu">
 
         <ImageButton
+            android:id="@+id/btulang"
             android:layout_width="190dp"
             android:layout_height="70dp"
             android:layout_marginTop="10dp"
@@ -76,10 +86,10 @@
 
         <ImageButton
             android:id="@+id/exit"
-            android:layout_width="200dp"
-            android:layout_height="80dp"
+            android:layout_width="190dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/btulang"
             android:layout_alignParentRight="true"
-            android:layout_marginTop="90dp"
             android:background="@drawable/tbkkembali" />
 
     </RelativeLayout>

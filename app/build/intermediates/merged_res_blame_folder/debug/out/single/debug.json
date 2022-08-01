@@ -24,6 +24,10 @@
         "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\layout\\activity_operasi7.xml"
     },
     {
+        "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\drawable_mo14.png.flat",
+        "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\drawable\\mo14.png"
+    },
+    {
         "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\drawable_bgresulkuis.png.flat",
         "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\drawable\\bgresulkuis.png"
     },
@@ -36,24 +40,24 @@
         "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\drawable\\mo4.png"
     },
     {
-        "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\drawable_ko5.png.flat",
-        "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\drawable\\ko5.png"
-    },
-    {
         "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\drawable_mo5.png.flat",
         "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\drawable\\mo5.png"
+    },
+    {
+        "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\drawable_ko5.png.flat",
+        "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\drawable\\ko5.png"
     },
     {
         "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\drawable_background_input.xml.flat",
-        "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\drawable\\background_input.xml"
-    },
-    {
         "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\drawable_chat.png.flat",
         "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\drawable\\chat.png"
+    },
+    {
+        "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\drawable_background_input.xml.flat",
+        "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\drawable\\background_input.xml"
     },
     {
         "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
@@ -102,6 +106,10 @@
     {
         "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_operasi1.xml.flat",
         "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\layout\\activity_operasi1.xml"
+    },
+    {
+        "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\drawable_mo15.png.flat",
+        "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\drawable\\mo15.png"
     },
     {
         "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_operasi8.xml.flat",
@@ -200,6 +208,10 @@
         "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\layout\\activity_operasi3.xml"
     },
     {
+        "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\drawable_mo17.png.flat",
+        "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\drawable\\mo17.png"
+    },
+    {
         "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\drawable_kbangunr.png.flat",
         "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\drawable\\kbangunr.png"
     },
@@ -256,8 +268,16 @@
         "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\drawable\\mkecepatan.png"
     },
     {
+        "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_operasi17.xml.flat",
+        "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\layout\\activity_operasi17.xml"
+    },
+    {
         "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\drawable_tbnext.png.flat",
         "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\drawable\\tbnext.png"
+    },
+    {
+        "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_operasi14.xml.flat",
+        "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\layout\\activity_operasi14.xml"
     },
     {
         "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\layout_item_container_user.xml.flat",
@@ -278,6 +298,10 @@
     {
         "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\drawable_ko1.png.flat",
         "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\drawable\\ko1.png"
+    },
+    {
+        "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_operasi_selesai.xml.flat",
+        "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\layout\\activity_operasi_selesai.xml"
     },
     {
         "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\drawable_bgmenumateri.png.flat",
@@ -324,6 +348,10 @@
         "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\drawable\\ic_add.xml"
     },
     {
+        "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_operasi15.xml.flat",
+        "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\layout\\activity_operasi15.xml"
+    },
+    {
         "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_operasi5.xml.flat",
         "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\layout\\activity_operasi5.xml"
     },
@@ -338,6 +366,10 @@
     {
         "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_kuis_skala.xml.flat",
         "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\layout\\activity_kuis_skala.xml"
+    },
+    {
+        "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\drawable_mo12.png.flat",
+        "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\drawable\\mo12.png"
     },
     {
         "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\drawable_tbmulai.png.flat",
@@ -424,6 +456,10 @@
         "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\drawable\\koo6.png"
     },
     {
+        "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\drawable_mo13.png.flat",
+        "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\drawable\\mo13.png"
+    },
+    {
         "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_skuis1.xml.flat",
         "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\layout\\activity_skuis1.xml"
     },
@@ -442,6 +478,14 @@
     {
         "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\drawable_koo9.png.flat",
         "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\drawable\\koo9.png"
+    },
+    {
+        "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\drawable_mo16.png.flat",
+        "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\drawable\\mo16.png"
+    },
+    {
+        "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_operasi16.xml.flat",
+        "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\layout\\activity_operasi16.xml"
     },
     {
         "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_operasi2.xml.flat",
