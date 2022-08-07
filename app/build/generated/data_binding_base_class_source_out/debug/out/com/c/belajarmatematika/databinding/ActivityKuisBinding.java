@@ -21,10 +21,16 @@ public final class ActivityKuisBinding implements ViewBinding {
   private final RelativeLayout rootView;
 
   @NonNull
+  public final ImageButton KKecepatan;
+
+  @NonNull
   public final ImageButton KOperasi;
 
   @NonNull
   public final ImageButton KOperasi2;
+
+  @NonNull
+  public final ImageButton KSkala;
 
   @NonNull
   public final HorizontalScrollView horizontal;
@@ -33,30 +39,20 @@ public final class ActivityKuisBinding implements ViewBinding {
   public final ImageButton imageBack;
 
   @NonNull
-  public final View logo;
+  public final RelativeLayout logo;
 
-  @NonNull
-  public final ImageButton materi3;
-
-  @NonNull
-  public final ImageButton materi5;
-
-  @NonNull
-  public final ImageButton materi6;
-
-  private ActivityKuisBinding(@NonNull RelativeLayout rootView, @NonNull ImageButton KOperasi,
-      @NonNull ImageButton KOperasi2, @NonNull HorizontalScrollView horizontal,
-      @NonNull ImageButton imageBack, @NonNull View logo, @NonNull ImageButton materi3,
-      @NonNull ImageButton materi5, @NonNull ImageButton materi6) {
+  private ActivityKuisBinding(@NonNull RelativeLayout rootView, @NonNull ImageButton KKecepatan,
+      @NonNull ImageButton KOperasi, @NonNull ImageButton KOperasi2, @NonNull ImageButton KSkala,
+      @NonNull HorizontalScrollView horizontal, @NonNull ImageButton imageBack,
+      @NonNull RelativeLayout logo) {
     this.rootView = rootView;
+    this.KKecepatan = KKecepatan;
     this.KOperasi = KOperasi;
     this.KOperasi2 = KOperasi2;
+    this.KSkala = KSkala;
     this.horizontal = horizontal;
     this.imageBack = imageBack;
     this.logo = logo;
-    this.materi3 = materi3;
-    this.materi5 = materi5;
-    this.materi6 = materi6;
   }
 
   @Override
@@ -86,6 +82,12 @@ public final class ActivityKuisBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.KKecepatan;
+      ImageButton KKecepatan = ViewBindings.findChildViewById(rootView, id);
+      if (KKecepatan == null) {
+        break missingId;
+      }
+
       id = R.id.KOperasi;
       ImageButton KOperasi = ViewBindings.findChildViewById(rootView, id);
       if (KOperasi == null) {
@@ -95,6 +97,12 @@ public final class ActivityKuisBinding implements ViewBinding {
       id = R.id.KOperasi2;
       ImageButton KOperasi2 = ViewBindings.findChildViewById(rootView, id);
       if (KOperasi2 == null) {
+        break missingId;
+      }
+
+      id = R.id.KSkala;
+      ImageButton KSkala = ViewBindings.findChildViewById(rootView, id);
+      if (KSkala == null) {
         break missingId;
       }
 
@@ -111,31 +119,13 @@ public final class ActivityKuisBinding implements ViewBinding {
       }
 
       id = R.id.logo;
-      View logo = ViewBindings.findChildViewById(rootView, id);
+      RelativeLayout logo = ViewBindings.findChildViewById(rootView, id);
       if (logo == null) {
         break missingId;
       }
 
-      id = R.id.materi3;
-      ImageButton materi3 = ViewBindings.findChildViewById(rootView, id);
-      if (materi3 == null) {
-        break missingId;
-      }
-
-      id = R.id.materi5;
-      ImageButton materi5 = ViewBindings.findChildViewById(rootView, id);
-      if (materi5 == null) {
-        break missingId;
-      }
-
-      id = R.id.materi6;
-      ImageButton materi6 = ViewBindings.findChildViewById(rootView, id);
-      if (materi6 == null) {
-        break missingId;
-      }
-
-      return new ActivityKuisBinding((RelativeLayout) rootView, KOperasi, KOperasi2, horizontal,
-          imageBack, logo, materi3, materi5, materi6);
+      return new ActivityKuisBinding((RelativeLayout) rootView, KKecepatan, KOperasi, KOperasi2,
+          KSkala, horizontal, imageBack, logo);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

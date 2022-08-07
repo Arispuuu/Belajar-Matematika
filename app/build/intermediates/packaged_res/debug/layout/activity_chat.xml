@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/primary"
+    android:background="#DD8C4D"
     android:animateLayoutChanges="true"
     tools:context=".activities.ChatActivity">
 
@@ -21,7 +21,7 @@
         android:id="@+id/headerBackground"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:background="@color/primary"
+        android:background="@drawable/bgmateriup"
         app:layout_constraintBottom_toTopOf="@id/viewSupporter"
         app:layout_constraintTop_toTopOf="parent"/>
 
@@ -36,7 +36,7 @@
         android:src="@drawable/ic_back"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:tint="@color/white"/>
+        app:tint="#AA5A14"/>
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/imageInfo"
@@ -49,7 +49,7 @@
         android:src="@drawable/ic_info"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:tint="@color/white"/>
+        app:tint="#AA5A14"/>
 
     <TextView
         android:id="@+id/textName"
@@ -60,7 +60,7 @@
         android:ellipsize="end"
         android:gravity="center"
         android:maxLines="1"
-        android:textColor="@color/white"
+        android:textColor="#AA5A14"
         android:textSize="@dimen/_14ssp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@id/imageBack"
@@ -133,13 +133,13 @@
         android:layout_marginRight="@dimen/_8sdp"
         android:layout_marginBottom="@dimen/_8sdp"
         android:background="@drawable/background_chat_input"
-        android:hint="@string/type_a_message"
+        android:hint="ketik pesan"
         android:imeOptions="actionDone"
         android:importantForAutofill="no"
         android:paddingStart="@dimen/_16sdp"
         android:paddingEnd="@dimen/_16sdp"
         android:textColor="@color/white"
-        android:textColorHint="@color/secondary_text"
+        android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/layoutSend"
         app:layout_constraintStart_toStartOf="parent"/>

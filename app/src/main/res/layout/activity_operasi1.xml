@@ -23,49 +23,157 @@
             android:textSize="30dp"
             android:textStyle="bold" />
 
-        <ImageButton
-            android:id="@+id/bthome"
-            android:layout_width="40dp"
+        <RelativeLayout
+            android:layout_width="100dp"
             android:layout_height="40dp"
             android:layout_centerVertical="true"
             android:layout_marginLeft="30dp"
-            android:background="@drawable/btnhome" />
+            android:background="@drawable/tbmback">
+
+            <ImageButton
+                android:id="@+id/bthome"
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/tbkembali" />
+
+        </RelativeLayout>
+
 
     </RelativeLayout>
 
     <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_below="@+id/logo"
-        android:layout_marginBottom="20dp">
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginBottom="30dp">
 
-        <ImageView
-            android:id="@+id/tm1"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="80dp"
-            android:layout_marginRight="80dp"
-            android:layout_marginBottom="10dp"
-            android:background="@drawable/mo1" />
+        <ViewFlipper
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/viewFlipper">
 
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_marginLeft="80dp"
-            android:layout_marginRight="80dp"
-            android:layout_marginBottom="10dp">
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/kecepatan1"
+                android:src="@drawable/mo1"/>
 
-            <ImageButton
-                android:id="@+id/lanjut"
-                android:layout_width="100dp"
-                android:layout_height="40dp"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentBottom="true"
-                android:layout_marginRight="70dp"
-                android:background="@drawable/tbnext" />
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/kecepatan2"
+                android:src="@drawable/mo2"/>
 
-        </RelativeLayout>
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/kecepatan3"
+                android:src="@drawable/mo3"/>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/kecepatan4"
+                android:src="@drawable/mo4"/>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/kecepatan5"
+                android:src="@drawable/mo5"/>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/kecepatan6"
+                android:src="@drawable/mo1"/>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/kecepatan7"
+                android:src="@drawable/mo7"/>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/kecepatan8"
+                android:src="@drawable/mo8"/>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/kecepatan9"
+                android:src="@drawable/mo9"/>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/kecepatan10"
+                android:src="@drawable/mo10"/>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/kecepatan11"
+                android:src="@drawable/mo11"/>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/kecepatan12"
+                android:src="@drawable/mo12"/>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/kecepatan13"
+                android:src="@drawable/mo13"/>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/kecepatan14"
+                android:src="@drawable/mo14"/>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/kecepatan15"
+                android:src="@drawable/mo7"/>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/kecepatan16"
+                android:src="@drawable/mo16"/>
+
+
+
+        </ViewFlipper>
+
+        <ImageButton
+            android:id="@+id/lanjut"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="70dp"
+            android:background="@drawable/tbnext" />
+
+        <ImageButton
+            android:id="@+id/kembali"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="70dp"
+            android:background="@drawable/tbmback" />
+
 
 
     </RelativeLayout>

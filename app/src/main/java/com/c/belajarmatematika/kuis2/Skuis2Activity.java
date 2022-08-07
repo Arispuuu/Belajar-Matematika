@@ -10,6 +10,7 @@ import com.c.belajarmatematika.Kuis.KuizOperasiActivity;
 import com.c.belajarmatematika.R;
 import com.c.belajarmatematika.databinding.ActivitySkuis1Binding;
 import com.c.belajarmatematika.databinding.ActivitySkuis2Binding;
+import com.c.belajarmatematika.matematika.KuisActivity;
 
 public class Skuis2Activity extends AppCompatActivity {
 
@@ -27,5 +28,7 @@ public class Skuis2Activity extends AppCompatActivity {
     private void setListeners() {
         binding.mulai.setOnClickListener(v ->
                 startActivity(new Intent(getApplicationContext(), KuisOperasi2Activity.class)));
+        binding.imageBack.setOnClickListener(v ->
+                startActivity(new Intent(getApplicationContext(), KuisActivity.class)));
     }
 }

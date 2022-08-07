@@ -9,10 +9,14 @@ import android.view.WindowManager;
 import android.widget.ImageButton;
 
 import com.c.belajarmatematika.R;
+import com.c.belajarmatematika.activities.BaseActivity;
 import com.c.belajarmatematika.activities.MainActivity;
 import com.c.belajarmatematika.bilanganBulat.BilanganBulatActivity;
 import com.c.belajarmatematika.databinding.ActivityBilanganBulatBinding;
+import com.c.belajarmatematika.materiBangun.Bangun1Activity;
+import com.c.belajarmatematika.materiKecepatan.Kecepatan1Activity;
 import com.c.belajarmatematika.materiOperasi.Operasi1Activity;
+import com.c.belajarmatematika.materiSkala.Skala1Activity;
 
 public class MateriActivity extends AppCompatActivity {
 
@@ -43,5 +47,36 @@ public class MateriActivity extends AppCompatActivity {
 
             }
         });
+
+        pindah = findViewById(R.id.btKecepatan);
+        pindah.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MateriActivity.this, Kecepatan1Activity.class);
+                startActivity(intent);
+
+            }
+        });
+
+        pindah = findViewById(R.id.Skala);
+        pindah.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MateriActivity.this, Skala1Activity.class);
+                startActivity(intent);
+
+            }
+        });
+
+        pindah = findViewById(R.id.bangun);
+        pindah.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MateriActivity.this, Bangun1Activity.class);
+                startActivity(intent);
+
+            }
+        });
+
     }
 }

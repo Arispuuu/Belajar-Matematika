@@ -149,17 +149,18 @@ public class KuisSkalaActivity extends AppCompatActivity {
         );
 
         rg.setLayoutParams(lp);
-        rg.setPadding(90,0,0,0);
+        rg.setPadding(0,5,0,5);
+        rg.setHorizontalGravity(1);
 
         final RadioButton[] rb1 = new RadioButton[3];
 
         for (int i = 0;i <=2 ; i++) {
             rb1[i] = new RadioButton(this);
             rb1[i].setText(mQuestions.getChoice(qnum) [i]);
-            rb1[i].setPadding(8, 16, 8, 16);
+            rb1[i].setPadding(0, 0, 100, 0);
             rb1[i].setTextSize(25);
             rb1[i].setId(i);
-            rb1[i].setWidth(1000);
+
 
             rg.addView(rb1[i]);
         }

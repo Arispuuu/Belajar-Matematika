@@ -47,29 +47,20 @@
                 </ImageButton>
 
                 <ImageButton
-                    android:id="@+id/materi3"
+                    android:id="@+id/KSkala"
                     android:layout_width="170dp"
                     android:layout_height="110dp"
                     android:layout_marginEnd="10dp"
-                    android:background="@drawable/moperasi">
+                    android:background="@drawable/kskala">
 
                 </ImageButton>
 
                 <ImageButton
-                    android:id="@+id/materi5"
+                    android:id="@+id/KKecepatan"
                     android:layout_width="170dp"
                     android:layout_height="110dp"
                     android:layout_marginEnd="10dp"
-                    android:background="@drawable/moperasi">
-
-                </ImageButton>
-
-                <ImageButton
-                    android:id="@+id/materi6"
-                    android:layout_width="170dp"
-                    android:layout_height="110dp"
-                    android:layout_marginEnd="10dp"
-                    android:background="@drawable/moperasi">
+                    android:background="@drawable/kbangunr">
 
                 </ImageButton>
 
@@ -79,24 +70,14 @@
 
     </RelativeLayout>
 
-
-
-
-
-    <View
-        android:layout_width="120dp"
-        android:layout_height="70dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="10dp"
-        android:background="@drawable/bgkembali" />
-
     <ImageButton
         android:id="@+id/imageBack"
-        android:layout_width="80dp"
-        android:layout_height="23dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="22dp"
-        android:background="@drawable/tbkembali" />
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btnhome" />
+
 
 </RelativeLayout>

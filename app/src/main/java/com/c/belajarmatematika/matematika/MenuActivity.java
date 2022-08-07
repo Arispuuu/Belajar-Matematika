@@ -83,5 +83,4 @@ public class MenuActivity extends AppCompatActivity {
                 .addOnFailureListener(e -> showToast("Unable to sign out"));
     }
 
-
 }

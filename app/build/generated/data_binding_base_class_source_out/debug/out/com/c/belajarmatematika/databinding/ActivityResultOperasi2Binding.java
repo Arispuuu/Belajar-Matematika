@@ -21,6 +21,9 @@ public final class ActivityResultOperasi2Binding implements ViewBinding {
   private final RelativeLayout rootView;
 
   @NonNull
+  public final ImageButton btulang;
+
+  @NonNull
   public final TextView correctTextview;
 
   @NonNull
@@ -29,13 +32,18 @@ public final class ActivityResultOperasi2Binding implements ViewBinding {
   @NonNull
   public final TextView percentTextview;
 
+  @NonNull
+  public final TextView skor;
+
   private ActivityResultOperasi2Binding(@NonNull RelativeLayout rootView,
-      @NonNull TextView correctTextview, @NonNull ImageButton exit,
-      @NonNull TextView percentTextview) {
+      @NonNull ImageButton btulang, @NonNull TextView correctTextview, @NonNull ImageButton exit,
+      @NonNull TextView percentTextview, @NonNull TextView skor) {
     this.rootView = rootView;
+    this.btulang = btulang;
     this.correctTextview = correctTextview;
     this.exit = exit;
     this.percentTextview = percentTextview;
+    this.skor = skor;
   }
 
   @Override
@@ -65,6 +73,12 @@ public final class ActivityResultOperasi2Binding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btulang;
+      ImageButton btulang = ViewBindings.findChildViewById(rootView, id);
+      if (btulang == null) {
+        break missingId;
+      }
+
       id = R.id.correct_textview;
       TextView correctTextview = ViewBindings.findChildViewById(rootView, id);
       if (correctTextview == null) {
@@ -83,8 +97,14 @@ public final class ActivityResultOperasi2Binding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityResultOperasi2Binding((RelativeLayout) rootView, correctTextview, exit,
-          percentTextview);
+      id = R.id.skor;
+      TextView skor = ViewBindings.findChildViewById(rootView, id);
+      if (skor == null) {
+        break missingId;
+      }
+
+      return new ActivityResultOperasi2Binding((RelativeLayout) rootView, btulang, correctTextview,
+          exit, percentTextview, skor);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -8,6 +8,7 @@ import android.view.WindowManager;
 
 import com.c.belajarmatematika.databinding.ActivityKuisBinding;
 import com.c.belajarmatematika.databinding.ActivitySkuis1Binding;
+import com.c.belajarmatematika.matematika.KuisActivity;
 
 public class Skuis1Activity extends AppCompatActivity {
 
@@ -25,5 +26,7 @@ public class Skuis1Activity extends AppCompatActivity {
     private void setListeners() {
         binding.mulai.setOnClickListener(v ->
                 startActivity(new Intent(getApplicationContext(), KuizOperasiActivity.class)));
+        binding.imageBack.setOnClickListener(v ->
+                startActivity(new Intent(getApplicationContext(), KuisActivity.class)));
     }
 }

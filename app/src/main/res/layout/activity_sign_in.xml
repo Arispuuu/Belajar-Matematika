@@ -8,10 +8,11 @@
     android:overScrollMode="never"
     android:padding="@dimen/_24sdp"
     android:scrollbars="none"
-    android:background="@color/white"
+    android:background="@drawable/bgmasuk"
     tools:context=".activities.SignInActivity">
 
     <LinearLayout
+        android:background="@drawable/bgmasuk2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -21,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/_40sdp"
-        android:text="@string/selamat_datang"
+        android:text="Selamat Datang"
         android:textColor="@color/primary_text"
         android:textSize="@dimen/_18ssp"
         android:textStyle="bold"/>
@@ -30,13 +31,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_4sdp"
-            android:text="@string/silahkan_login_untuk_melanjutkan"
-            android:textColor="@color/secondary_text"
+            android:text="Silahkan masuk untuk melanjutkan"
+            android:textColor="#FFFFFF"
             android:textSize="@dimen/_12ssp"
             android:textStyle="bold"/>
 
         <EditText
             android:id="@+id/inputEmail"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_45sdp"
             android:layout_marginTop="@dimen/_40sdp"
@@ -60,11 +63,14 @@
                 android:id="@+id/inputPassword"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
                 android:background="@drawable/background_input"
                 android:hint="@string/password"
                 android:imeOptions="actionDone"
                 android:importantForAutofill="no"
                 android:inputType="textPassword"
+
                 android:paddingStart="@dimen/_16sdp"
                 android:paddingEnd="@dimen/_16sdp"
                 android:textColor="@color/primary_text"
@@ -82,7 +88,9 @@
                 android:id="@+id/buttonSignIn"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_50sdp"
-                android:text="@string/sign_in"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Masuk"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_13ssp"
                 android:textStyle="bold"
@@ -102,8 +110,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_30sdp"
-            android:text="@string/create_new_account"
-            android:textColor="@color/primary"
+            android:text="Daftar"
+            android:textColor="#3C2503"
+            android:layout_marginBottom="10dp"
             android:textSize="@dimen/_13ssp"
             android:textStyle="bold"/>
 

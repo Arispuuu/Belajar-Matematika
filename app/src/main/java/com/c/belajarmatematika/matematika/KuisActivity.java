@@ -32,9 +32,9 @@ public class KuisActivity extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(), Skuis1Activity.class)));
         binding.KOperasi2.setOnClickListener(v ->
                 startActivity(new Intent(getApplicationContext(), Skuis2Activity.class)));
-        binding.materi3.setOnClickListener(v ->
+        binding.KSkala.setOnClickListener(v ->
                 startActivity(new Intent(getApplicationContext(), Skuis3Activity.class)));
-        binding.materi5.setOnClickListener(v ->
+        binding.KKecepatan.setOnClickListener(v ->
                 startActivity(new Intent(getApplicationContext(), Skuis4Activity.class)));
 
     }

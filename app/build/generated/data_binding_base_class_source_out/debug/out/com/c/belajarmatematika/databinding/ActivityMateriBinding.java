@@ -21,10 +21,16 @@ public final class ActivityMateriBinding implements ViewBinding {
   private final RelativeLayout rootView;
 
   @NonNull
+  public final ImageButton Skala;
+
+  @NonNull
+  public final ImageButton bangun;
+
+  @NonNull
   public final ImageButton btBulat;
 
   @NonNull
-  public final ImageButton btOperasi;
+  public final ImageButton btKecepatan;
 
   @NonNull
   public final HorizontalScrollView horizontal;
@@ -33,26 +39,20 @@ public final class ActivityMateriBinding implements ViewBinding {
   public final ImageButton imageBack;
 
   @NonNull
-  public final View logo;
+  public final RelativeLayout logo;
 
-  @NonNull
-  public final ImageButton materi3;
-
-  @NonNull
-  public final ImageButton materi5;
-
-  private ActivityMateriBinding(@NonNull RelativeLayout rootView, @NonNull ImageButton btBulat,
-      @NonNull ImageButton btOperasi, @NonNull HorizontalScrollView horizontal,
-      @NonNull ImageButton imageBack, @NonNull View logo, @NonNull ImageButton materi3,
-      @NonNull ImageButton materi5) {
+  private ActivityMateriBinding(@NonNull RelativeLayout rootView, @NonNull ImageButton Skala,
+      @NonNull ImageButton bangun, @NonNull ImageButton btBulat, @NonNull ImageButton btKecepatan,
+      @NonNull HorizontalScrollView horizontal, @NonNull ImageButton imageBack,
+      @NonNull RelativeLayout logo) {
     this.rootView = rootView;
+    this.Skala = Skala;
+    this.bangun = bangun;
     this.btBulat = btBulat;
-    this.btOperasi = btOperasi;
+    this.btKecepatan = btKecepatan;
     this.horizontal = horizontal;
     this.imageBack = imageBack;
     this.logo = logo;
-    this.materi3 = materi3;
-    this.materi5 = materi5;
   }
 
   @Override
@@ -82,15 +82,27 @@ public final class ActivityMateriBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.Skala;
+      ImageButton Skala = ViewBindings.findChildViewById(rootView, id);
+      if (Skala == null) {
+        break missingId;
+      }
+
+      id = R.id.bangun;
+      ImageButton bangun = ViewBindings.findChildViewById(rootView, id);
+      if (bangun == null) {
+        break missingId;
+      }
+
       id = R.id.btBulat;
       ImageButton btBulat = ViewBindings.findChildViewById(rootView, id);
       if (btBulat == null) {
         break missingId;
       }
 
-      id = R.id.btOperasi;
-      ImageButton btOperasi = ViewBindings.findChildViewById(rootView, id);
-      if (btOperasi == null) {
+      id = R.id.btKecepatan;
+      ImageButton btKecepatan = ViewBindings.findChildViewById(rootView, id);
+      if (btKecepatan == null) {
         break missingId;
       }
 
@@ -107,25 +119,13 @@ public final class ActivityMateriBinding implements ViewBinding {
       }
 
       id = R.id.logo;
-      View logo = ViewBindings.findChildViewById(rootView, id);
+      RelativeLayout logo = ViewBindings.findChildViewById(rootView, id);
       if (logo == null) {
         break missingId;
       }
 
-      id = R.id.materi3;
-      ImageButton materi3 = ViewBindings.findChildViewById(rootView, id);
-      if (materi3 == null) {
-        break missingId;
-      }
-
-      id = R.id.materi5;
-      ImageButton materi5 = ViewBindings.findChildViewById(rootView, id);
-      if (materi5 == null) {
-        break missingId;
-      }
-
-      return new ActivityMateriBinding((RelativeLayout) rootView, btBulat, btOperasi, horizontal,
-          imageBack, logo, materi3, materi5);
+      return new ActivityMateriBinding((RelativeLayout) rootView, Skala, bangun, btBulat,
+          btKecepatan, horizontal, imageBack, logo);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
