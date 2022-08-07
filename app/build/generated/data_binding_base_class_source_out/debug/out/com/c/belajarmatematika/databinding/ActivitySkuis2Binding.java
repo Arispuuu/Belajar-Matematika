@@ -21,14 +21,18 @@ public final class ActivitySkuis2Binding implements ViewBinding {
   private final RelativeLayout rootView;
 
   @NonNull
+  public final ImageButton imageBack;
+
+  @NonNull
   public final ImageButton mulai;
 
   @NonNull
   public final TextView tx;
 
-  private ActivitySkuis2Binding(@NonNull RelativeLayout rootView, @NonNull ImageButton mulai,
-      @NonNull TextView tx) {
+  private ActivitySkuis2Binding(@NonNull RelativeLayout rootView, @NonNull ImageButton imageBack,
+      @NonNull ImageButton mulai, @NonNull TextView tx) {
     this.rootView = rootView;
+    this.imageBack = imageBack;
     this.mulai = mulai;
     this.tx = tx;
   }
@@ -60,6 +64,12 @@ public final class ActivitySkuis2Binding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.imageBack;
+      ImageButton imageBack = ViewBindings.findChildViewById(rootView, id);
+      if (imageBack == null) {
+        break missingId;
+      }
+
       id = R.id.mulai;
       ImageButton mulai = ViewBindings.findChildViewById(rootView, id);
       if (mulai == null) {
@@ -72,7 +82,7 @@ public final class ActivitySkuis2Binding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivitySkuis2Binding((RelativeLayout) rootView, mulai, tx);
+      return new ActivitySkuis2Binding((RelativeLayout) rootView, imageBack, mulai, tx);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
