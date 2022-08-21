@@ -59,19 +59,19 @@
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:id="@+id/kecepatan1"
-                android:src="@drawable/mo6"/>
+                android:src="@drawable/mk1"/>
 
             <ImageView
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:id="@+id/kecepatan2"
-                android:src="@drawable/mo2"/>
+                android:src="@drawable/mk2"/>
 
             <ImageView
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:id="@+id/kecepatan3"
-                android:src="@drawable/mo16"/>
+                android:src="@drawable/mk3"/>
 
             <ImageView
                 android:layout_width="fill_parent"

@@ -79,4 +79,13 @@
         android:layout_marginBottom="30dp"
         android:background="@drawable/exit" />
 
+    <ToggleButton
+        android:id="@+id/sounds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onToggleClicked"
+        android:textColor="#222"
+        android:textOff="Stop"
+        android:textOn="Play" />
+
 </RelativeLayout>

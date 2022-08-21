@@ -22,6 +22,7 @@ drawable background_sent_message
 drawable backroud2
 drawable backroudmenu
 drawable bgabc
+drawable bgabc2
 drawable bgkayu
 drawable bgkembali
 drawable bgkuisup
@@ -75,6 +76,9 @@ drawable kskala
 drawable logom
 drawable logout
 drawable mbangun
+drawable mk1
+drawable mk2
+drawable mk3
 drawable mkecepatan
 drawable mo1
 drawable mo10
@@ -177,6 +181,7 @@ id s7
 id s8
 id s9
 id skor
+id sounds
 id textAddImage
 id textAvailability
 id textCreateNewAccount
@@ -218,6 +223,7 @@ layout activity_skuis1
 layout activity_skuis2
 layout activity_skuis3
 layout activity_skuis4
+layout activity_splash
 layout activity_users
 layout coba
 layout item_container_received_message
@@ -226,6 +232,7 @@ layout item_container_sent_message
 layout item_container_user
 mipmap ic_launcher
 mipmap ic_launcher_round
+raw sound1
 string add_image
 string app_name
 string confirm_password

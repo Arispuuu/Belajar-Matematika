@@ -3,6 +3,7 @@ package com.c.belajarmatematika.matematika;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
@@ -21,6 +22,7 @@ import com.c.belajarmatematika.materiSkala.Skala1Activity;
 public class MateriActivity extends AppCompatActivity {
 
     private ImageButton pindah;
+    MediaPlayer audio;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +39,7 @@ public class MateriActivity extends AppCompatActivity {
 
             }
         });
+
 
         pindah = findViewById(R.id.btBulat);
         pindah.setOnClickListener(new View.OnClickListener() {

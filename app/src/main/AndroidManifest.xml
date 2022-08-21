@@ -12,9 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BelajarMatematika">
         <activity
-            android:name=".materiBangun.Bangun1Activity"
+            android:name=".opening.SplashActivity"
             android:screenOrientation="landscape"
             android:exported="false" />
+        <activity
+            android:name=".materiBangun.Bangun1Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
         <activity
             android:name=".materiSkala.Skala1Activity"
             android:exported="false"

@@ -3245,6 +3245,7 @@ drawable background_sent_message
 drawable backroud2
 drawable backroudmenu
 drawable bgabc
+drawable bgabc2
 drawable bgkayu
 drawable bgkembali
 drawable bgkuisup
@@ -3362,6 +3363,9 @@ drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
 drawable mbangun
+drawable mk1
+drawable mk2
+drawable mk3
 drawable mkecepatan
 drawable mo1
 drawable mo10
@@ -3883,6 +3887,7 @@ id snackbar_action
 id snackbar_text
 id snap
 id snapMargins
+id sounds
 id south
 id spacer
 id special_effects_controller_view_tag
@@ -4107,6 +4112,7 @@ layout activity_skuis1
 layout activity_skuis2
 layout activity_skuis3
 layout activity_skuis4
+layout activity_splash
 layout activity_users
 layout coba
 layout custom_dialog
@@ -4210,6 +4216,7 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 raw gcm_bip
+raw sound1
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description

@@ -1,12 +1,18 @@
 package com.c.belajarmatematika.matematika;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.view.View;
 import android.view.WindowManager;
+import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.Toast;
+import android.widget.ToggleButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.c.belajarmatematika.R;
 import com.c.belajarmatematika.activities.MainActivity;
 import com.c.belajarmatematika.activities.SignInActivity;
 import com.c.belajarmatematika.databinding.ActivityMenuBinding;
@@ -24,6 +30,7 @@ public class MenuActivity extends AppCompatActivity {
     private ActivityMenuBinding binding;
     private PreferenceManager preferenceManager;
     private FirebaseFirestore database;
+    MediaPlayer mp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,16 +41,45 @@ public class MenuActivity extends AppCompatActivity {
         preferenceManager = new PreferenceManager(getApplicationContext());
         getToken();
         setListeners();
+
+        mp = MediaPlayer.create(getBaseContext(),R.raw.sound1);
+        mp.setVolume(1,1);
+        mp.setLooping(true);
+        mp.start();
+
     }
+
+    public void onToggleClicked(View view) {
+        boolean on = ((ToggleButton) view).isChecked();
+
+        if (on) {
+            mp.setVolume(0,0);
+        }
+        else {
+            mp.setVolume(1,1);
+        }
+    }
+
 
     private void setListeners() {
         binding.imageSignOut.setOnClickListener(v -> signOut());
-        binding.imageChat.setOnClickListener(v ->
-                startActivity(new Intent(getApplicationContext(), MainActivity.class)));
-        binding.buttonMateri.setOnClickListener(v ->
-                startActivity(new Intent(getApplicationContext(), MateriActivity.class)));
-        binding.buttonKuis.setOnClickListener(v ->
-                startActivity(new Intent(getApplicationContext(), KuisActivity.class)));
+
+        binding.imageChat.setOnClickListener(view -> {
+            startActivity(new Intent(getApplicationContext(), MainActivity.class));
+            mp.stop();
+        });
+
+
+        binding.buttonMateri.setOnClickListener(view -> {
+            startActivity(new Intent(getApplicationContext(), MateriActivity.class));
+            mp.stop();
+        });
+
+        binding.buttonKuis.setOnClickListener(view -> {
+            startActivity(new Intent(getApplicationContext(), KuisActivity.class));
+            mp.stop();
+        });
+
     }
 
     private void showToast(String message) {
@@ -82,5 +118,6 @@ public class MenuActivity extends AppCompatActivity {
                 })
                 .addOnFailureListener(e -> showToast("Unable to sign out"));
     }
+
 
 }

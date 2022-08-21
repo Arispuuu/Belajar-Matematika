@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
 import android.widget.RelativeLayout;
+import android.widget.ToggleButton;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -37,10 +38,13 @@ public final class ActivityMenuBinding implements ViewBinding {
   @NonNull
   public final ImageButton logo;
 
+  @NonNull
+  public final ToggleButton sounds;
+
   private ActivityMenuBinding(@NonNull RelativeLayout rootView, @NonNull ImageButton buttonKuis,
       @NonNull ImageButton buttonMateri, @NonNull ImageButton imageChat,
-      @NonNull ImageButton imageExit, @NonNull ImageButton imageSignOut,
-      @NonNull ImageButton logo) {
+      @NonNull ImageButton imageExit, @NonNull ImageButton imageSignOut, @NonNull ImageButton logo,
+      @NonNull ToggleButton sounds) {
     this.rootView = rootView;
     this.buttonKuis = buttonKuis;
     this.buttonMateri = buttonMateri;
@@ -48,6 +52,7 @@ public final class ActivityMenuBinding implements ViewBinding {
     this.imageExit = imageExit;
     this.imageSignOut = imageSignOut;
     this.logo = logo;
+    this.sounds = sounds;
   }
 
   @Override
@@ -113,8 +118,14 @@ public final class ActivityMenuBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.sounds;
+      ToggleButton sounds = ViewBindings.findChildViewById(rootView, id);
+      if (sounds == null) {
+        break missingId;
+      }
+
       return new ActivityMenuBinding((RelativeLayout) rootView, buttonKuis, buttonMateri, imageChat,
-          imageExit, imageSignOut, logo);
+          imageExit, imageSignOut, logo, sounds);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
