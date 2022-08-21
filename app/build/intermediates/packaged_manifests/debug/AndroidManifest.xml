@@ -24,6 +24,10 @@
         android:testOnly="true"
         android:theme="@style/Theme.BelajarMatematika" >
         <activity
+            android:name="com.c.belajarmatematika.opening.SplashActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
             android:name="com.c.belajarmatematika.materiBangun.Bangun1Activity"
             android:exported="false"
             android:screenOrientation="landscape" />
