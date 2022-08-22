@@ -36,12 +36,12 @@
         "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\drawable_bgkuisview.png.flat",
         "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\drawable\\bgkuisview.png"
+    },
+    {
+        "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\drawable_ms28.png.flat",
@@ -52,12 +52,12 @@
         "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\drawable\\mb29.png"
     },
     {
-        "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\drawable_mbangun.png.flat",
-        "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\drawable\\mbangun.png"
-    },
-    {
         "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\layout_coba.xml.flat",
         "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\layout\\coba.xml"
+    },
+    {
+        "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\drawable_mbangun.png.flat",
+        "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\drawable\\mbangun.png"
     },
     {
         "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\drawable_background_icon.xml.flat",
@@ -160,12 +160,12 @@
         "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\drawable\\mb37.png"
     },
     {
-        "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\drawable_ms1.png.flat",
-        "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\drawable\\ms1.png"
-    },
-    {
         "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\drawable_mb11.png.flat",
         "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\drawable\\mb11.png"
+    },
+    {
+        "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\drawable_ms1.png.flat",
+        "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\drawable\\ms1.png"
     },
     {
         "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_bilangan_bulat.xml.flat",
@@ -192,12 +192,12 @@
         "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\drawable\\mk11.png"
     },
     {
-        "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_skala1.xml.flat",
-        "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\layout\\activity_skala1.xml"
-    },
-    {
         "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\drawable_mb34.png.flat",
         "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\drawable\\mb34.png"
+    },
+    {
+        "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_skala1.xml.flat",
+        "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\layout\\activity_skala1.xml"
     },
     {
         "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\layout_item_container_user.xml.flat",
@@ -236,12 +236,12 @@
         "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\drawable\\mk9.png"
     },
     {
-        "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\drawable_koo4.png.flat",
-        "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\drawable\\koo4.png"
-    },
-    {
         "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\drawable_mb41.png.flat",
         "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\drawable\\mb41.png"
+    },
+    {
+        "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\drawable_koo4.png.flat",
+        "source": "D:\\skripsi\\Belajar-Matematika\\app\\src\\main\\res\\drawable\\koo4.png"
     },
     {
         "merged": "D:\\skripsi\\Belajar-Matematika\\app\\build\\intermediates\\merged_res\\debug\\drawable_tbkembali.png.flat",
