@@ -3,15 +3,19 @@ package com.c.belajarmatematika.activities;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.util.Base64;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 
+import com.c.belajarmatematika.R;
 import com.c.belajarmatematika.adapters.ChatAdapter;
 import com.c.belajarmatematika.databinding.ActivityChatBinding;
+import com.c.belajarmatematika.matematika.MateriActivity;
 import com.c.belajarmatematika.models.ChatMessage;
 import com.c.belajarmatematika.models.User;
 import com.c.belajarmatematika.network.ApiClient;
@@ -54,15 +58,20 @@ public class ChatActivity extends BaseActivity {
     private String conversionId = null;
     private Boolean isReceiverAvailable = false;
 
+    MediaPlayer suarabtn;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         binding = ActivityChatBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         loadReceiverDetails();
         setListeners();
         init();
         listenMessage();
+
+        suarabtn = MediaPlayer.create(getBaseContext(), R.raw.btn);
     }
 
     private void init() {
@@ -246,8 +255,10 @@ public class ChatActivity extends BaseActivity {
     }
 
     private void setListeners() {
-        binding.imageBack.setOnClickListener(v ->
-                startActivity(new Intent(getApplicationContext(), MainActivity.class)));
+        binding.imageBack.setOnClickListener(view -> {
+            suarabtn.start();
+            startActivity(new Intent(getApplicationContext(), MainActivity.class));
+        });
         binding.layoutSend.setOnClickListener(v -> sendMessage());
     }
 

@@ -42,21 +42,21 @@ public class Kuis4 {
     };
 
     private String mImages[] = {
-            "ko1", // soal 1
-            "ko2", // soal 2
-            "ko3", // soal 3
-            "ko4", // soal 4
-            "ko5", // soal 5
-            "ko6", // soal 6
-            "ko7", // soal 7
-            "ko8", // soal 8
-            "ko9", // soal 9
-            "ko10", // soal 10
-            "ko1", // soal 11
-            "ko2", // soal 12
-            "ko3", // soal 13
-            "ko4", // soal 14
-            "ko5", // soal 15
+            "ss1", // soal 1
+            "ss2", // soal 2
+            "ss3", // soal 3
+            "ss4", // soal 4
+            "ss5", // soal 5
+            "ss6", // soal 6
+            "ss7", // soal 7
+            "ss8", // soal 8
+            "ss9", // soal 9
+            "ss10", // soal 10
+            "ss11", // soal 11
+            "ss12", // soal 12
+            "ss13", // soal 13
+            "ss14", // soal 14
+            "ss15", // soal 15
 
     };
 
@@ -80,20 +80,20 @@ public class Kuis4 {
 
     private String mCorrectAnswers [] = {
             "C", // soal 1
-            "A", // soal 2
+            "C", // soal 2
             "C", // soal 3
             "A", // soal 4
-            "A", // soal 5
-            "C", // soal 6
+            "B", // soal 5
+            "B", // soal 6
             "C", // soal 7
-            "C", // soal 8
-            "A", // soal 9
-            "B", // soal 10
-            "C", // soal 11
+            "B", // soal 8
+            "B", // soal 9
+            "A", // soal 10
+            "A", // soal 11
             "A", // soal 12
-            "C", // soal 13
-            "A", // soal 14
-            "A", // soal 15
+            "B", // soal 13
+            "C", // soal 14
+            "C", // soal 15
 
     };
 

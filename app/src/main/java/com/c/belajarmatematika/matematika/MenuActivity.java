@@ -1,15 +1,18 @@
 package com.c.belajarmatematika.matematika;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.Toast;
 import android.widget.ToggleButton;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.c.belajarmatematika.R;
@@ -30,7 +33,9 @@ public class MenuActivity extends AppCompatActivity {
     private ActivityMenuBinding binding;
     private PreferenceManager preferenceManager;
     private FirebaseFirestore database;
-    MediaPlayer mp;
+    MediaPlayer mp, suarabtn;
+
+    private AlertDialog.Builder alertdialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +46,8 @@ public class MenuActivity extends AppCompatActivity {
         preferenceManager = new PreferenceManager(getApplicationContext());
         getToken();
         setListeners();
+
+        suarabtn = MediaPlayer.create(getBaseContext(),R.raw.btn);
 
         mp = MediaPlayer.create(getBaseContext(),R.raw.sound1);
         mp.setVolume(1,1);
@@ -62,22 +69,56 @@ public class MenuActivity extends AppCompatActivity {
 
 
     private void setListeners() {
-        binding.imageSignOut.setOnClickListener(v -> signOut());
+        binding.imageSignOut.setOnClickListener(view -> {
+            mp.stop();
+            signOut();
+        });
 
         binding.imageChat.setOnClickListener(view -> {
+            suarabtn.start();
             startActivity(new Intent(getApplicationContext(), MainActivity.class));
             mp.stop();
         });
 
 
         binding.buttonMateri.setOnClickListener(view -> {
+            suarabtn.start();
             startActivity(new Intent(getApplicationContext(), MateriActivity.class));
             mp.stop();
         });
 
         binding.buttonKuis.setOnClickListener(view -> {
+            suarabtn.start();
             startActivity(new Intent(getApplicationContext(), KuisActivity.class));
             mp.stop();
+        });
+
+        binding.imageExit.setOnClickListener(view -> {
+            suarabtn.start();
+            AlertDialog.Builder alertdialog = new AlertDialog.Builder(MenuActivity.this);
+
+            alertdialog.setTitle(R.string.title);
+            alertdialog.setMessage(R.string.message);
+
+            alertdialog.setPositiveButton("Ya", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int i) {
+                    mp.stop();
+                    suarabtn.start();
+                    finishAffinity();
+                }
+            });
+
+            alertdialog.setNegativeButton("tidak", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int i) {
+                    mp.start();
+                    suarabtn.start();
+                    dialog.dismiss();
+                }
+            });
+
+            alertdialog.show();
         });
 
     }
@@ -118,6 +159,5 @@ public class MenuActivity extends AppCompatActivity {
                 })
                 .addOnFailureListener(e -> showToast("Unable to sign out"));
     }
-
 
 }

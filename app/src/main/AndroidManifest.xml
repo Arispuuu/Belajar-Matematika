@@ -12,7 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BelajarMatematika">
         <activity
-            android:name=".opening.SplashActivity"
+            android:name=".Kuis5.Skuis5Activity"
+            android:screenOrientation="landscape"
+            android:exported="false" />
+        <activity
+            android:name=".Kuis5.ResultBangun1Activity"
+            android:screenOrientation="landscape"
+            android:exported="false" />
+        <activity
+            android:name=".Kuis5.KuisBangun1Activity"
             android:screenOrientation="landscape"
             android:exported="false" />
         <activity

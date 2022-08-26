@@ -60,55 +60,55 @@
             <ImageView
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:id="@+id/kecepatan1"
+                android:id="@+id/operasi1"
                 android:src="@drawable/mo1"/>
 
             <ImageView
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:id="@+id/kecepatan2"
+                android:id="@+id/operasi2"
                 android:src="@drawable/mo2"/>
 
             <ImageView
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:id="@+id/kecepatan3"
+                android:id="@+id/operasi3"
                 android:src="@drawable/mo3"/>
 
             <ImageView
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:id="@+id/kecepatan4"
+                android:id="@+id/operasi4"
                 android:src="@drawable/mo4"/>
 
             <ImageView
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:id="@+id/kecepatan5"
+                android:id="@+id/operasi5"
                 android:src="@drawable/mo5"/>
 
             <ImageView
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:id="@+id/kecepatan6"
-                android:src="@drawable/mo1"/>
+                android:id="@+id/operasi6"
+                android:src="@drawable/mo6"/>
 
             <ImageView
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:id="@+id/kecepatan7"
+                android:id="@+id/operasi7"
                 android:src="@drawable/mo7"/>
 
             <ImageView
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:id="@+id/kecepatan8"
+                android:id="@+id/operasi8"
                 android:src="@drawable/mo8"/>
 
             <ImageView
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:id="@+id/kecepatan9"
+                android:id="@+id/operasi9"
                 android:src="@drawable/mo9"/>
 
             <ImageView
@@ -120,38 +120,123 @@
             <ImageView
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:id="@+id/kecepatan11"
+                android:id="@+id/operasi11"
                 android:src="@drawable/mo11"/>
 
             <ImageView
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:id="@+id/kecepatan12"
+                android:id="@+id/operasi12"
                 android:src="@drawable/mo12"/>
 
             <ImageView
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:id="@+id/kecepatan13"
+                android:id="@+id/operasi13"
                 android:src="@drawable/mo13"/>
 
             <ImageView
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:id="@+id/kecepatan14"
+                android:id="@+id/operasi14"
                 android:src="@drawable/mo14"/>
 
             <ImageView
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:id="@+id/kecepatan15"
-                android:src="@drawable/mo7"/>
+                android:id="@+id/operasi15"
+                android:src="@drawable/mo15"/>
 
             <ImageView
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:id="@+id/kecepatan16"
+                android:id="@+id/operasi16"
                 android:src="@drawable/mo16"/>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/operasi17"
+                android:src="@drawable/mo17"/>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/opersasi18"
+                android:src="@drawable/mo18"/>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/operasi19"
+                android:src="@drawable/mo19"/>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/operasi20"
+                android:src="@drawable/mo20"/>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/operasi21"
+                android:src="@drawable/mo21"/>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/operasi22"
+                android:src="@drawable/mo22"/>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/operasi23"
+                android:src="@drawable/mo23"/>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/operasi24"
+                android:src="@drawable/mo24"/>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/operasi25"
+                android:src="@drawable/mo25"/>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/operasi26"
+                android:src="@drawable/mo26"/>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/operasi27"
+                android:src="@drawable/mo27"/>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/opersasi28"
+                android:src="@drawable/mo28"/>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/operasi29"
+                android:src="@drawable/mo29"/>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/operasi30"
+                android:src="@drawable/mo30"/>
+
 
 
 

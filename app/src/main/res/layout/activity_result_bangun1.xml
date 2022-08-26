@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backroudmenu"
+    android:orientation="vertical"
+    tools:context=".Kuis5.ResultBangun1Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="300dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/bgresulkuis"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:id="@+id/skor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="Your Score"
+                android:textAlignment="center"
+                android:textColor="#571601"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/percent_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/skor"
+                android:layout_marginTop="10dp"
+                android:padding="0dp"
+                android:paddingTop="10dp"
+                android:textAlignment="center"
+                android:textColor="#571601"
+                android:textSize="60dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/correct_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/percent_textview"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:paddingTop="10dp"
+                android:textAlignment="center"
+                android:textColor="#571601"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="40dp"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="570dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bgkayu">
+
+        <ImageButton
+            android:id="@+id/btulang"
+            android:layout_width="190dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/tbulangi"
+            android:onClick="restartgame5" />
+
+        <ImageButton
+            android:id="@+id/exit"
+            android:layout_width="190dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/btulang"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/tbkkembali" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -24,7 +24,15 @@
         android:testOnly="true"
         android:theme="@style/Theme.BelajarMatematika" >
         <activity
-            android:name="com.c.belajarmatematika.opening.SplashActivity"
+            android:name="com.c.belajarmatematika.Kuis5.Skuis5Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.c.belajarmatematika.Kuis5.ResultBangun1Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.c.belajarmatematika.Kuis5.KuisBangun1Activity"
             android:exported="false"
             android:screenOrientation="landscape" />
         <activity

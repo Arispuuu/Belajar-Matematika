@@ -4,6 +4,7 @@ import androidx.annotation.ColorInt;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.SystemClock;
@@ -36,11 +37,15 @@ public class KuizOperasiActivity extends AppCompatActivity {
 
     private Kuis1 mQuestions = new Kuis1();
 
+    MediaPlayer suarabtn;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_quiz_operasi);
+
+        suarabtn = MediaPlayer.create(getBaseContext(),R.raw.btn);
 
         mQuestionView = findViewById(R.id.question_textview);
         mQuizNumView = findViewById(R.id.quiznum_textview);
@@ -52,6 +57,8 @@ public class KuizOperasiActivity extends AppCompatActivity {
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                suarabtn.start();
 
                 if (mQuestions.getType(QuestionNum) == "radiobutton") {
 

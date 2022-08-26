@@ -3,6 +3,7 @@ package com.c.belajarmatematika.kuis2;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.WindowManager;
 
@@ -16,6 +17,8 @@ public class Skuis2Activity extends AppCompatActivity {
 
     private ActivitySkuis2Binding binding;
 
+    MediaPlayer suarabtn;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,12 +26,20 @@ public class Skuis2Activity extends AppCompatActivity {
         binding = ActivitySkuis2Binding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         setListeners();
+
+        suarabtn = MediaPlayer.create(getBaseContext(),R.raw.btn);
     }
 
     private void setListeners() {
-        binding.mulai.setOnClickListener(v ->
-                startActivity(new Intent(getApplicationContext(), KuisOperasi2Activity.class)));
-        binding.imageBack.setOnClickListener(v ->
-                startActivity(new Intent(getApplicationContext(), KuisActivity.class)));
+
+        binding.mulai.setOnClickListener(view -> {
+            suarabtn.start();
+            startActivity(new Intent(getApplicationContext(), KuisOperasi2Activity.class));
+        });
+
+        binding.imageBack.setOnClickListener(view -> {
+            suarabtn.start();
+            startActivity(new Intent(getApplicationContext(), KuisActivity.class));
+        });
     }
 }

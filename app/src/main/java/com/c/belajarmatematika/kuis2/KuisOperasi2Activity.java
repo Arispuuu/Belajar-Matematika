@@ -3,6 +3,7 @@ package com.c.belajarmatematika.kuis2;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.SystemClock;
@@ -37,11 +38,15 @@ public class KuisOperasi2Activity extends AppCompatActivity {
 
     private Kuis2 mQuestions = new Kuis2();
 
+    MediaPlayer suarabtn;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_kuis_operasi2);
+
+        suarabtn = MediaPlayer.create(getBaseContext(),R.raw.btn);
 
         mQuestionView = findViewById(R.id.question_textview);
         mQuizNumView = findViewById(R.id.quiznum_textview);
@@ -53,6 +58,8 @@ public class KuisOperasi2Activity extends AppCompatActivity {
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                suarabtn.start();
 
                 if (mQuestions.getType(QuestionNum) == "radiobutton") {
 

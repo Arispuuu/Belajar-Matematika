@@ -3,13 +3,17 @@ package com.c.belajarmatematika.activities;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.util.Base64;
 import android.view.View;
+import android.view.WindowManager;
 
+import com.c.belajarmatematika.R;
 import com.c.belajarmatematika.adapters.RecentConversationAdapter;
 import com.c.belajarmatematika.databinding.ActivityMainBinding;
 import com.c.belajarmatematika.listeners.ConversionListener;
+import com.c.belajarmatematika.matematika.MateriActivity;
 import com.c.belajarmatematika.matematika.MenuActivity;
 import com.c.belajarmatematika.models.ChatMessage;
 import com.c.belajarmatematika.models.User;
@@ -32,9 +36,12 @@ public class MainActivity extends BaseActivity implements ConversionListener {
     private RecentConversationAdapter conversationAdapter;
     private FirebaseFirestore database;
 
+    MediaPlayer suarabtn;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         preferenceManager = new PreferenceManager(getApplicationContext());
@@ -42,6 +49,8 @@ public class MainActivity extends BaseActivity implements ConversionListener {
         loadUserDetails();
         setListeners();
         listenConversations();
+
+        suarabtn = MediaPlayer.create(getBaseContext(), R.raw.btn);
     }
 
     private void init() {
@@ -52,10 +61,16 @@ public class MainActivity extends BaseActivity implements ConversionListener {
     }
 
     private void setListeners() {
-        binding.imageBack.setOnClickListener(v ->
-                startActivity(new Intent(getApplicationContext(), MenuActivity.class)));
-        binding.fabNewChat.setOnClickListener(v ->
-                startActivity(new Intent(getApplicationContext(), UsersActivity.class)));
+        binding.imageBack.setOnClickListener(view -> {
+            suarabtn.start();
+            startActivity(new Intent(getApplicationContext(), MenuActivity.class));
+        });
+
+        binding.fabNewChat.setOnClickListener(view -> {
+            suarabtn.start();
+            startActivity(new Intent(getApplicationContext(), UsersActivity.class));
+        });
+
     }
 
     private void loadUserDetails() {

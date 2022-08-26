@@ -35,7 +35,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-                android:text="Kuis Operasi Hitung"
+                android:text="Soal Operasi Hitung"
                 android:textColor="@color/primary"
                 android:textSize="30sp"
                 android:textStyle="bold" />

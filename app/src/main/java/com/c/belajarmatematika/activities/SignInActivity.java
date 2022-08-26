@@ -1,16 +1,18 @@
 package com.c.belajarmatematika.activities;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.util.Patterns;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.c.belajarmatematika.R;
 import com.c.belajarmatematika.databinding.ActivitySignInBinding;
 import com.c.belajarmatematika.matematika.MenuActivity;
-import com.c.belajarmatematika.opening.SplashActivity;
 import com.c.belajarmatematika.utilities.Constants;
 import com.c.belajarmatematika.utilities.PreferenceManager;
 import com.google.firebase.firestore.DocumentSnapshot;
@@ -20,25 +22,33 @@ public class SignInActivity extends AppCompatActivity {
     private ActivitySignInBinding binding;
     private PreferenceManager preferenceManager;
 
+    MediaPlayer suarabtn;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         preferenceManager = new PreferenceManager(getApplicationContext());
         if (preferenceManager.getBoolean(Constants.KEY_IS_SIGNED_IN)) {
-            Intent intent = new Intent(getApplicationContext(), SplashActivity.class);
+            Intent intent = new Intent(getApplicationContext(), MenuActivity.class);
             startActivity(intent);
             finish();
         }
         binding = ActivitySignInBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         setListener();
+
+        suarabtn = MediaPlayer.create(getBaseContext(), R.raw.btn);
     }
 
     private void setListener() {
-        binding.textCreateNewAccount.setOnClickListener(v ->
-                startActivity(new Intent(getApplicationContext(), SignUpActivity.class)));
+        binding.textCreateNewAccount.setOnClickListener(view -> {
+            suarabtn.start();
+            startActivity(new Intent(getApplicationContext(), SignUpActivity.class));
+        });
         binding.buttonSignIn.setOnClickListener(v -> {
+            suarabtn.start();
             if (isValidSignInDetails()) {
                 signIn();
             }

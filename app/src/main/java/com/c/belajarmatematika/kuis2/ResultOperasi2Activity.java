@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
@@ -23,6 +24,8 @@ public class ResultOperasi2Activity extends AppCompatActivity {
 
     private ActivityResultOperasi2Binding binding;
 
+    MediaPlayer suarabtn;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,6 +33,8 @@ public class ResultOperasi2Activity extends AppCompatActivity {
         binding = ActivityResultOperasi2Binding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         setListeners();
+
+        suarabtn = MediaPlayer.create(getBaseContext(),R.raw.btn);
 
         txtCorrectText = findViewById(R.id.correct_textview);
         txtPercentText = findViewById(R.id.percent_textview);
@@ -48,12 +53,16 @@ public class ResultOperasi2Activity extends AppCompatActivity {
     }
 
     private void setListeners() {
-        binding.exit.setOnClickListener(v ->
-                startActivity(new Intent(getApplicationContext(), KuisActivity.class)));
+
+        binding.exit.setOnClickListener(view -> {
+            suarabtn.start();
+            startActivity(new Intent(getApplicationContext(), KuisActivity.class));
+        });
 
     }
 
     public void restartgame2(View view) {
+        suarabtn.start();
         super.onBackPressed();
     }
 }

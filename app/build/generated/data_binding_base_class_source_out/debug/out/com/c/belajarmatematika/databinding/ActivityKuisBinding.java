@@ -33,6 +33,9 @@ public final class ActivityKuisBinding implements ViewBinding {
   public final ImageButton KSkala;
 
   @NonNull
+  public final ImageButton Kbangun;
+
+  @NonNull
   public final HorizontalScrollView horizontal;
 
   @NonNull
@@ -43,13 +46,14 @@ public final class ActivityKuisBinding implements ViewBinding {
 
   private ActivityKuisBinding(@NonNull RelativeLayout rootView, @NonNull ImageButton KKecepatan,
       @NonNull ImageButton KOperasi, @NonNull ImageButton KOperasi2, @NonNull ImageButton KSkala,
-      @NonNull HorizontalScrollView horizontal, @NonNull ImageButton imageBack,
-      @NonNull RelativeLayout logo) {
+      @NonNull ImageButton Kbangun, @NonNull HorizontalScrollView horizontal,
+      @NonNull ImageButton imageBack, @NonNull RelativeLayout logo) {
     this.rootView = rootView;
     this.KKecepatan = KKecepatan;
     this.KOperasi = KOperasi;
     this.KOperasi2 = KOperasi2;
     this.KSkala = KSkala;
+    this.Kbangun = Kbangun;
     this.horizontal = horizontal;
     this.imageBack = imageBack;
     this.logo = logo;
@@ -106,6 +110,12 @@ public final class ActivityKuisBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.Kbangun;
+      ImageButton Kbangun = ViewBindings.findChildViewById(rootView, id);
+      if (Kbangun == null) {
+        break missingId;
+      }
+
       id = R.id.horizontal;
       HorizontalScrollView horizontal = ViewBindings.findChildViewById(rootView, id);
       if (horizontal == null) {
@@ -125,7 +135,7 @@ public final class ActivityKuisBinding implements ViewBinding {
       }
 
       return new ActivityKuisBinding((RelativeLayout) rootView, KKecepatan, KOperasi, KOperasi2,
-          KSkala, horizontal, imageBack, logo);
+          KSkala, Kbangun, horizontal, imageBack, logo);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

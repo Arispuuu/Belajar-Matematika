@@ -14,7 +14,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="70dp"
         android:layout_marginRight="40dp"
-        android:background="@drawable/bgmenukuis">
+        android:background="@drawable/bgmenusoal">
 
         <HorizontalScrollView
             android:id="@+id/horizontal"
@@ -33,7 +33,7 @@
                     android:layout_width="170dp"
                     android:layout_height="110dp"
                     android:layout_marginEnd="10dp"
-                    android:background="@drawable/koperasi">
+                    android:background="@drawable/soperasi">
 
                 </ImageButton>
 
@@ -42,7 +42,7 @@
                     android:layout_width="170dp"
                     android:layout_height="110dp"
                     android:layout_marginEnd="10dp"
-                    android:background="@drawable/koperasi2">
+                    android:background="@drawable/soperasi2">
 
                 </ImageButton>
 
@@ -51,7 +51,7 @@
                     android:layout_width="170dp"
                     android:layout_height="110dp"
                     android:layout_marginEnd="10dp"
-                    android:background="@drawable/kskala">
+                    android:background="@drawable/skecepatan">
 
                 </ImageButton>
 
@@ -60,7 +60,16 @@
                     android:layout_width="170dp"
                     android:layout_height="110dp"
                     android:layout_marginEnd="10dp"
-                    android:background="@drawable/kbangunr">
+                    android:background="@drawable/sskala">
+
+                </ImageButton>
+
+                <ImageButton
+                    android:id="@+id/Kbangun"
+                    android:layout_width="170dp"
+                    android:layout_height="110dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/sbangun">
 
                 </ImageButton>
 

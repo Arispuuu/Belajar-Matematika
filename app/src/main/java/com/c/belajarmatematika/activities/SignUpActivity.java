@@ -7,18 +7,20 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.util.Base64;
 import android.util.Patterns;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Toast;
 
 
+import com.c.belajarmatematika.R;
 import com.c.belajarmatematika.databinding.ActivitySignUpBinding;
 import com.c.belajarmatematika.matematika.MenuActivity;
-import com.c.belajarmatematika.opening.SplashActivity;
 import com.c.belajarmatematika.utilities.Constants;
 import com.c.belajarmatematika.utilities.PreferenceManager;
 import com.google.firebase.firestore.FirebaseFirestore;
@@ -34,18 +36,28 @@ public class SignUpActivity extends AppCompatActivity {
     private PreferenceManager preferenceManager;
     private String encodedImage;
 
+    MediaPlayer suarabtn;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         binding = ActivitySignUpBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         preferenceManager = new PreferenceManager(getApplicationContext());
         setListener();
+
+        suarabtn = MediaPlayer.create(getBaseContext(), R.raw.btn);
     }
 
     private void setListener() {
-        binding.textSignIn.setOnClickListener(v -> onBackPressed());
+        binding.textSignIn.setOnClickListener(view -> {
+            suarabtn.start();
+            onBackPressed();
+        });
+
         binding.buttonSignUp.setOnClickListener(v -> {
+            suarabtn.start();
             if (isValidSignUpDetails()) {
                 signUp();
             }
@@ -77,7 +89,7 @@ public class SignUpActivity extends AppCompatActivity {
                     preferenceManager.putString(Constants.KEY_USER_ID, documentReference.getId());
                     preferenceManager.putString(Constants.KEY_NAME, binding.inputName.getText().toString());
                     preferenceManager.putString(Constants.KEY_NAME, encodedImage);
-                    Intent intent = new Intent(getApplicationContext(), SplashActivity.class);
+                    Intent intent = new Intent(getApplicationContext(), MenuActivity.class);
                     intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     startActivity(intent);
                 })

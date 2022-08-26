@@ -22,6 +22,7 @@
     <string name="google_app_id" translatable="false">1:914472568406:android:02ec2a54dd9469181e1df7</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCTaLFMPW9YZ3NV65ulAwfuMQuMnl2HPb4</string>
     <string name="google_storage_bucket" translatable="false">belajar-matematika-63fd5.appspot.com</string>
+    <string name="message">Yakin mau keluar ?</string>
     <string name="name">Name</string>
     <string name="password">Password</string>
     <string name="project_id" translatable="false">belajar-matematika-63fd5</string>
@@ -30,6 +31,7 @@
     <string name="sign_in">Sign In</string>
     <string name="sign_up">Sign Up</string>
     <string name="silahkan_login_untuk_melanjutkan">Silahkan login untuk melanjutkan</string>
+    <string name="title">Keluar</string>
     <string name="txtCorrectScore">"total jawaban benar : %1$s dari %2$s soal."</string>
     <string name="type_a_message">Type a message</string>
     <style name="Theme.BelajarMatematika" parent="Theme.MaterialComponents.DayNight.NoActionBar">

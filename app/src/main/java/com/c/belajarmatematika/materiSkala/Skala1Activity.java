@@ -3,6 +3,7 @@ package com.c.belajarmatematika.materiSkala;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
@@ -23,6 +24,8 @@ public class Skala1Activity extends AppCompatActivity implements View.OnClickLis
     ImageButton Previous;
     private ActivitySkala1Binding binding;
 
+    MediaPlayer suarabtn;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,7 +34,7 @@ public class Skala1Activity extends AppCompatActivity implements View.OnClickLis
         setContentView(binding.getRoot());
         setListeners();
 
-
+        suarabtn = MediaPlayer.create(getBaseContext(),R.raw.btn);
 
         viewFlipper= (ViewFlipper) findViewById(R.id.viewFlipper);
         next = (ImageButton) findViewById(R.id.lanjut);
@@ -42,8 +45,10 @@ public class Skala1Activity extends AppCompatActivity implements View.OnClickLis
     }
 
     private void setListeners() {
-        binding.bthome.setOnClickListener(v ->
-                startActivity(new Intent(getApplicationContext(), MateriActivity.class)));
+        binding.bthome.setOnClickListener(view -> {
+            suarabtn.start();
+            startActivity(new Intent(getApplicationContext(), MateriActivity.class));
+        });
     }
 
     @Override

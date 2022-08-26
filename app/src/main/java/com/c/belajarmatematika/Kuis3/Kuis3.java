@@ -30,16 +30,16 @@ public class Kuis3 {
     };
 
     private String mImages[] = {
-            "bgabc", // soal 1
-            "koo2", // soal 2
-            "koo3", // soal 3
-            "koo4", // soal 4
-            "koo5", // soal 5
-            "koo6", // soal 6
-            "koo7", // soal 7
-            "koo8", // soal 8
-            "koo9", // soal 9
-            "koo10", // soal 10
+            "sk1", // soal 1
+            "sk2", // soal 2
+            "sk3", // soal 3
+            "sk4", // soal 4
+            "sk5", // soal 5
+            "sk6", // soal 6
+            "sk7", // soal 7
+            "sk8", // soal 8
+            "sk9", // soal 9
+            "sk10", // soal 10
 
     };
 
@@ -57,14 +57,14 @@ public class Kuis3 {
     };
 
     private String mCorrectAnswers [] = {
-            "A", // soal 1
+            "B", // soal 1
             "C", // soal 2
-            "C", // soal 3
-            "B", // soal 4
-            "C", // soal 5
+            "B", // soal 3
+            "C", // soal 4
+            "A", // soal 5
             "B", // soal 6
-            "B", // soal 7
-            "A", // soal 8
+            "A", // soal 7
+            "C", // soal 8
             "A", // soal 9
             "C", // soal 10
 

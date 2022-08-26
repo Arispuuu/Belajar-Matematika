@@ -13,4 +13,6 @@
     <string name="select_user">Select User</string>
     <string name="type_a_message">Type a message</string>
     <string name="txtCorrectScore">"total jawaban benar : %1$s dari %2$s soal."</string>
+    <string name="title">Keluar</string>
+    <string name="message">Yakin mau keluar ?</string>
 </resources>

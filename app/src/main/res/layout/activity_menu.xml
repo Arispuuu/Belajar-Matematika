@@ -28,15 +28,15 @@
         android:layout_marginTop="135dp"
         android:background="@drawable/tmateri" />
 
+
     <ImageButton
         android:id="@+id/buttonKuis"
         android:layout_width="150dp"
         android:layout_height="60dp"
         android:layout_below="@+id/buttonMateri"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="10dp"
-        android:background="@drawable/tkuis" />
-
+        android:layout_marginTop="8dp"
+        android:background="@drawable/tsoal" />
 
     <View
         android:layout_width="195dp"
@@ -83,6 +83,9 @@
         android:id="@+id/sounds"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
         android:onClick="onToggleClicked"
         android:textColor="#222"
         android:textOff="Stop"

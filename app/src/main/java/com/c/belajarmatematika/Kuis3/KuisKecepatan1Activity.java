@@ -3,6 +3,7 @@ package com.c.belajarmatematika.Kuis3;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.SystemClock;
@@ -37,11 +38,15 @@ public class KuisKecepatan1Activity extends AppCompatActivity {
 
     private Kuis3 mQuestions = new Kuis3();
 
+    MediaPlayer suarabtn;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_kuis_kecepatan1);
+
+        suarabtn = MediaPlayer.create(getBaseContext(),R.raw.btn);
 
         mQuestionView = findViewById(R.id.question_textview);
         mQuizNumView = findViewById(R.id.quiznum_textview);
@@ -53,6 +58,8 @@ public class KuisKecepatan1Activity extends AppCompatActivity {
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                suarabtn.start();
 
                 if (mQuestions.getType(QuestionNum) == "radiobutton") {
 
@@ -71,7 +78,7 @@ public class KuisKecepatan1Activity extends AppCompatActivity {
 
                 if (QuestionNum == mQuestions.getLength() -1){
 
-                    Intent intent_result = new Intent(KuisKecepatan1Activity.this, ResultOperasiActivity.class);
+                    Intent intent_result = new Intent(KuisKecepatan1Activity.this, ResultKecepatan1Activity.class);
                     intent_result.putExtra("totalQuestions", mQuestions.getLength());
                     intent_result.putExtra("finalScore", mScore);
                     startActivity(intent_result);
