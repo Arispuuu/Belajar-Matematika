@@ -14,11 +14,6 @@ public class Kuis4 {
             "Soal 8",
             "Soal 9",
             "Soal 10",
-            "Soal 11",
-            "Soal 12",
-            "Soal 13",
-            "Soal 14",
-            "Soal 15",
 
     };
 
@@ -33,11 +28,7 @@ public class Kuis4 {
             {"A","B","C"}, //soal 8
             {"A","B","C"}, //soal 9
             {"A","B","C"}, //soal 10
-            {"A","B","C"}, //soal 11
-            {"A","B","C"}, //soal 12
-            {"A","B","C"}, //soal 13
-            {"A","B","C"}, //soal 14
-            {"A","B","C"}, //soal 15
+
 
     };
 
@@ -52,11 +43,7 @@ public class Kuis4 {
             "ss8", // soal 8
             "ss9", // soal 9
             "ss10", // soal 10
-            "ss11", // soal 11
-            "ss12", // soal 12
-            "ss13", // soal 13
-            "ss14", // soal 14
-            "ss15", // soal 15
+
 
     };
 
@@ -71,11 +58,7 @@ public class Kuis4 {
             "radiobutton",
             "radiobutton",
             "radiobutton",
-            "radiobutton",
-            "radiobutton",
-            "radiobutton",
-            "radiobutton",
-            "radiobutton",
+
     };
 
     private String mCorrectAnswers [] = {
@@ -89,11 +72,7 @@ public class Kuis4 {
             "B", // soal 8
             "B", // soal 9
             "A", // soal 10
-            "A", // soal 11
-            "A", // soal 12
-            "B", // soal 13
-            "C", // soal 14
-            "C", // soal 15
+
 
     };
 

@@ -59,6 +59,8 @@ public class KuisOperasi2Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
+
+
                 suarabtn.start();
 
                 if (mQuestions.getType(QuestionNum) == "radiobutton") {

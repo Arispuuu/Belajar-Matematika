@@ -24,7 +24,7 @@
 14-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:28:22-79
 15
 16    <application
-16-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:7:5-138:19
+16-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:7:5-218:19
 17        android:allowBackup="true"
 17-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:8:9-35
 18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -43,95 +43,95 @@
 25-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:13:9-55
 26        <activity
 26-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:14:9-17:40
-27            android:name="com.c.belajarmatematika.Kuis5.Skuis5Activity"
-27-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:15:13-49
+27            android:name="com.c.belajarmatematika.menukuis2.Skuisb1Activity"
+27-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:15:13-54
 28            android:exported="false"
 28-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:17:13-37
 29            android:screenOrientation="landscape" />
 29-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:16:13-50
 30        <activity
-30-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:18:9-21:40
-31            android:name="com.c.belajarmatematika.Kuis5.ResultBangun1Activity"
-31-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:19:13-56
+30-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:18:9-21:53
+31            android:name="com.c.belajarmatematika.Kuis52.ResultBangun52Activity"
+31-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:19:13-58
 32            android:exported="false"
-32-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:21:13-37
+32-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:20:13-37
 33            android:screenOrientation="landscape" />
-33-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:20:13-50
+33-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:21:13-50
 34        <activity
-34-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:22:9-25:40
-35            android:name="com.c.belajarmatematika.Kuis5.KuisBangun1Activity"
-35-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:23:13-54
+34-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:22:9-25:53
+35            android:name="com.c.belajarmatematika.Kuis52.KuisBangun52Activity"
+35-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:23:13-56
 36            android:exported="false"
-36-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:25:13-37
+36-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:24:13-37
 37            android:screenOrientation="landscape" />
-37-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:24:13-50
+37-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:25:13-50
 38        <activity
 38-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:26:9-29:53
-39            android:name="com.c.belajarmatematika.materiBangun.Bangun1Activity"
-39-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:27:13-57
+39            android:name="com.c.belajarmatematika.menukuis2.Skuissk1Activity"
+39-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:27:13-55
 40            android:exported="false"
 40-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:28:13-37
 41            android:screenOrientation="landscape" />
 41-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:29:13-50
 42        <activity
 42-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:30:9-33:53
-43            android:name="com.c.belajarmatematika.materiSkala.Skala1Activity"
-43-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:31:13-55
+43            android:name="com.c.belajarmatematika.menukuis2.Skuisk1Activity"
+43-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:31:13-54
 44            android:exported="false"
 44-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:32:13-37
 45            android:screenOrientation="landscape" />
 45-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:33:13-50
 46        <activity
 46-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:34:9-37:53
-47            android:name="com.c.belajarmatematika.materiKecepatan.Kecepatan1Activity"
-47-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:35:13-63
+47            android:name="com.c.belajarmatematika.menukuis2.Skuism1Activity"
+47-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:35:13-54
 48            android:exported="false"
 48-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:36:13-37
 49            android:screenOrientation="landscape" />
 49-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:37:13-50
 50        <activity
 50-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:38:9-41:53
-51            android:name="com.c.belajarmatematika.materiOperasi.Operasi1Activity"
-51-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:39:13-59
+51            android:name="com.c.belajarmatematika.menukuis2.MenuKuis2Activity"
+51-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:39:13-56
 52            android:exported="false"
 52-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:40:13-37
 53            android:screenOrientation="landscape" />
 53-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:41:13-50
 54        <activity
 54-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:42:9-45:53
-55            android:name="com.c.belajarmatematika.Kuis4.ResultSkalaActivity"
-55-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:43:13-54
+55            android:name="com.c.belajarmatematika.Kuis32.ResultKecepatan32Activity"
+55-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:43:13-61
 56            android:exported="false"
 56-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:44:13-37
 57            android:screenOrientation="landscape" />
 57-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:45:13-50
 58        <activity
 58-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:46:9-49:53
-59            android:name="com.c.belajarmatematika.Kuis4.KuisSkalaActivity"
-59-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:47:13-52
+59            android:name="com.c.belajarmatematika.Kuis32.KuisKecepatan32Activity"
+59-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:47:13-59
 60            android:exported="false"
 60-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:48:13-37
 61            android:screenOrientation="landscape" />
 61-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:49:13-50
 62        <activity
 62-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:50:9-53:53
-63            android:name="com.c.belajarmatematika.Kuis4.Skuis4Activity"
-63-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:51:13-49
+63            android:name="com.c.belajarmatematika.Kuis51.ResultBangun51Activity"
+63-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:51:13-58
 64            android:exported="false"
 64-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:52:13-37
 65            android:screenOrientation="landscape" />
 65-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:53:13-50
 66        <activity
 66-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:54:9-57:53
-67            android:name="com.c.belajarmatematika.Kuis3.ResultKecepatan1Activity"
-67-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:55:13-59
+67            android:name="com.c.belajarmatematika.Kuis51.KuisBangun51Activity"
+67-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:55:13-56
 68            android:exported="false"
 68-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:56:13-37
 69            android:screenOrientation="landscape" />
 69-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:57:13-50
 70        <activity
 70-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:58:9-61:53
-71            android:name="com.c.belajarmatematika.Kuis3.KuisKecepatan1Activity"
+71            android:name="com.c.belajarmatematika.Kuis42.ResultSkala42Activity"
 71-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:59:13-57
 72            android:exported="false"
 72-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:60:13-37
@@ -139,15 +139,15 @@
 73-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:61:13-50
 74        <activity
 74-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:62:9-65:53
-75            android:name="com.c.belajarmatematika.Kuis3.Skuis3Activity"
-75-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:63:13-49
+75            android:name="com.c.belajarmatematika.Kuis42.KuisSkala42Activity"
+75-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:63:13-55
 76            android:exported="false"
 76-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:64:13-37
 77            android:screenOrientation="landscape" />
 77-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:65:13-50
 78        <activity
 78-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:66:9-69:53
-79            android:name="com.c.belajarmatematika.kuis2.ResultOperasi2Activity"
+79            android:name="com.c.belajarmatematika.Kuis41.ResultSkala41Activity"
 79-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:67:13-57
 80            android:exported="false"
 80-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:68:13-37
@@ -155,7 +155,7 @@
 81-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:69:13-50
 82        <activity
 82-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:70:9-73:53
-83            android:name="com.c.belajarmatematika.kuis2.KuisOperasi2Activity"
+83            android:name="com.c.belajarmatematika.Kuis41.KuisSkala41Activity"
 83-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:71:13-55
 84            android:exported="false"
 84-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:72:13-37
@@ -163,278 +163,438 @@
 85-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:73:13-50
 86        <activity
 86-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:74:9-77:53
-87            android:name="com.c.belajarmatematika.kuis2.Skuis2Activity"
-87-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:75:13-49
+87            android:name="com.c.belajarmatematika.Kuis31.ResultKecepatan31Activity"
+87-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:75:13-61
 88            android:exported="false"
 88-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:76:13-37
 89            android:screenOrientation="landscape" />
 89-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:77:13-50
 90        <activity
 90-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:78:9-81:53
-91            android:name="com.c.belajarmatematika.Kuis.Skuis1Activity"
-91-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:79:13-48
+91            android:name="com.c.belajarmatematika.Kuis31.KuisKecepatan31Activity"
+91-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:79:13-59
 92            android:exported="false"
 92-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:80:13-37
 93            android:screenOrientation="landscape" />
 93-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:81:13-50
 94        <activity
 94-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:82:9-85:53
-95            android:name="com.c.belajarmatematika.matematika.KuisActivity"
-95-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:83:13-52
+95            android:name="com.c.belajarmatematika.Kuis12.ResultOperasi112Activity"
+95-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:83:13-60
 96            android:exported="false"
 96-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:84:13-37
 97            android:screenOrientation="landscape" />
 97-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:85:13-50
 98        <activity
 98-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:86:9-89:53
-99            android:name="com.c.belajarmatematika.Kuis.ResultOperasiActivity"
-99-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:87:13-55
+99            android:name="com.c.belajarmatematika.Kuis12.KuisOperasi12Activity"
+99-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:87:13-57
 100            android:exported="false"
 100-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:88:13-37
 101            android:screenOrientation="landscape" />
 101-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:89:13-50
 102        <activity
 102-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:90:9-93:53
-103            android:name="com.c.belajarmatematika.Kuis.KuizOperasiActivity"
-103-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:91:13-53
+103            android:name="com.c.belajarmatematika.Kuis11.ResultOperasi11Activity"
+103-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:91:13-59
 104            android:exported="false"
 104-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:92:13-37
 105            android:screenOrientation="landscape" />
 105-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:93:13-50
 106        <activity
 106-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:94:9-97:53
-107            android:name="com.c.belajarmatematika.bilanganBulat.BilanganBulatActivity"
-107-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:95:13-64
+107            android:name="com.c.belajarmatematika.Kuis11.KuisOperasi11Activity"
+107-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:95:13-57
 108            android:exported="false"
 108-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:96:13-37
 109            android:screenOrientation="landscape" />
 109-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:97:13-50
 110        <activity
 110-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:98:9-101:53
-111            android:name="com.c.belajarmatematika.matematika.MateriActivity"
-111-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:99:13-54
+111            android:name="com.c.belajarmatematika.Kuis5.Skuis5Activity"
+111-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:99:13-49
 112            android:exported="false"
 112-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:100:13-37
 113            android:screenOrientation="landscape" />
 113-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:101:13-50
 114        <activity
-114-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:102:9-105:58
-115            android:name="com.c.belajarmatematika.activities.ChatActivity"
-115-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:103:13-52
+114-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:102:9-105:53
+115            android:name="com.c.belajarmatematika.Kuis5.ResultBangun1Activity"
+115-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:103:13-56
 116            android:exported="false"
 116-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:104:13-37
-117            android:windowSoftInputMode="adjustResize" />
-117-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:105:13-55
+117            android:screenOrientation="landscape" />
+117-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:105:13-50
 118        <activity
-118-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:106:9-108:40
-119            android:name="com.c.belajarmatematika.activities.UsersActivity"
-119-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:107:13-53
-120            android:exported="false" />
+118-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:106:9-109:53
+119            android:name="com.c.belajarmatematika.Kuis5.KuisBangun1Activity"
+119-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:107:13-54
+120            android:exported="false"
 120-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:108:13-37
-121        <activity
-121-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:109:9-112:53
-122            android:name="com.c.belajarmatematika.matematika.MenuActivity"
-122-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:110:13-52
-123            android:exported="false"
-123-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:111:13-37
-124            android:screenOrientation="landscape" />
-124-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:112:13-50
-125        <activity
-125-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:113:9-116:58
-126            android:name="com.c.belajarmatematika.activities.SignUpActivity"
-126-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:114:13-54
-127            android:exported="false"
-127-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:115:13-37
-128            android:windowSoftInputMode="adjustResize" />
-128-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:116:13-55
-129        <activity
-129-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:117:9-126:20
-130            android:name="com.c.belajarmatematika.activities.SignInActivity"
-130-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:118:13-54
-131            android:exported="true"
-131-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:119:13-36
-132            android:windowSoftInputMode="adjustResize" >
-132-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:120:13-55
-133            <intent-filter>
-133-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:121:13-125:29
-134                <action android:name="android.intent.action.MAIN" />
-134-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:122:17-69
-134-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:122:25-66
-135
-136                <category android:name="android.intent.category.LAUNCHER" />
-136-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:124:17-77
-136-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:124:27-74
-137            </intent-filter>
-138        </activity>
-139        <activity
-139-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:127:9-129:40
-140            android:name="com.c.belajarmatematika.activities.MainActivity"
-140-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:128:13-52
-141            android:exported="false" />
-141-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:129:13-37
-142
-143        <service
-143-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:131:9-137:19
-144            android:name="com.c.belajarmatematika.firebase.MessagingService"
-144-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:132:13-54
-145            android:exported="false" >
-145-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:133:13-37
-146            <intent-filter>
-146-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:134:13-136:29
-147                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-147-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:135:17-78
-147-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:135:25-75
-148            </intent-filter>
-149        </service>
-150
-151        <receiver
-151-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:31:9-38:20
-152            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-152-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:32:13-78
-153            android:exported="true"
-153-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:33:13-36
-154            android:permission="com.google.android.c2dm.permission.SEND" >
-154-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:34:13-73
-155            <intent-filter>
-155-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:35:13-37:29
-156                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-156-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:36:17-81
-156-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:36:25-78
-157            </intent-filter>
-158        </receiver>
-159        <!--
-160             FirebaseMessagingService performs security checks at runtime,
-161             but set to not exported to explicitly avoid allowing another app to call it.
-162        -->
-163        <service
-163-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:44:9-51:19
-164            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-164-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:45:13-82
-165            android:directBootAware="true"
-165-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:46:13-43
-166            android:exported="false" >
-166-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:47:13-37
-167            <intent-filter android:priority="-500" >
-167-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:134:13-136:29
-168                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-168-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:135:17-78
-168-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:135:25-75
-169            </intent-filter>
-170        </service>
-171        <service
-171-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:52:9-58:19
-172            android:name="com.google.firebase.components.ComponentDiscoveryService"
-172-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:53:13-84
-173            android:directBootAware="true"
-173-->[com.google.firebase:firebase-common:20.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\99c9f4d55a69134a1a48ac6baa0b923c\transformed\firebase-common-20.1.0\AndroidManifest.xml:35:13-43
-174            android:exported="false" >
-174-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:54:13-37
-175            <meta-data
-175-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:55:13-57:85
-176                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-176-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:56:17-119
-177                android:value="com.google.firebase.components.ComponentRegistrar" />
-177-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:57:17-82
-178            <meta-data
-178-->[com.google.firebase:firebase-firestore:24.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\1bdc2d1a0ee957f6970b921ca8c877a6\transformed\firebase-firestore-24.1.0\AndroidManifest.xml:20:13-22:85
-179                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-179-->[com.google.firebase:firebase-firestore:24.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\1bdc2d1a0ee957f6970b921ca8c877a6\transformed\firebase-firestore-24.1.0\AndroidManifest.xml:21:17-111
-180                android:value="com.google.firebase.components.ComponentRegistrar" />
-180-->[com.google.firebase:firebase-firestore:24.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\1bdc2d1a0ee957f6970b921ca8c877a6\transformed\firebase-firestore-24.1.0\AndroidManifest.xml:22:17-82
-181            <meta-data
-181-->[com.google.firebase:firebase-datatransport:18.1.1] C:\Users\CIKO\.gradle\caches\transforms-3\bcbec35d0698f239911d95bc90208284\transformed\firebase-datatransport-18.1.1\AndroidManifest.xml:28:13-30:85
-182                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-182-->[com.google.firebase:firebase-datatransport:18.1.1] C:\Users\CIKO\.gradle\caches\transforms-3\bcbec35d0698f239911d95bc90208284\transformed\firebase-datatransport-18.1.1\AndroidManifest.xml:29:17-115
-183                android:value="com.google.firebase.components.ComponentRegistrar" />
-183-->[com.google.firebase:firebase-datatransport:18.1.1] C:\Users\CIKO\.gradle\caches\transforms-3\bcbec35d0698f239911d95bc90208284\transformed\firebase-datatransport-18.1.1\AndroidManifest.xml:30:17-82
-184            <meta-data
-184-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\570216b2a346f4461e915c57fe8b149f\transformed\firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
-185                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-185-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\570216b2a346f4461e915c57fe8b149f\transformed\firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
-186                android:value="com.google.firebase.components.ComponentRegistrar" />
-186-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\570216b2a346f4461e915c57fe8b149f\transformed\firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
-187        </service>
-188
-189        <activity
-189-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\9676a389bb62eadf5c36cf3412b457fa\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
-190            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-190-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\9676a389bb62eadf5c36cf3412b457fa\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
-191            android:exported="false"
-191-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\9676a389bb62eadf5c36cf3412b457fa\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
-192            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-192-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\9676a389bb62eadf5c36cf3412b457fa\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
-193
-194        <provider
-194-->[com.google.firebase:firebase-common:20.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\99c9f4d55a69134a1a48ac6baa0b923c\transformed\firebase-common-20.1.0\AndroidManifest.xml:26:9-31:39
-195            android:name="com.google.firebase.provider.FirebaseInitProvider"
-195-->[com.google.firebase:firebase-common:20.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\99c9f4d55a69134a1a48ac6baa0b923c\transformed\firebase-common-20.1.0\AndroidManifest.xml:27:13-77
-196            android:authorities="com.c.belajarmatematika.firebaseinitprovider"
-196-->[com.google.firebase:firebase-common:20.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\99c9f4d55a69134a1a48ac6baa0b923c\transformed\firebase-common-20.1.0\AndroidManifest.xml:28:13-72
-197            android:directBootAware="true"
-197-->[com.google.firebase:firebase-common:20.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\99c9f4d55a69134a1a48ac6baa0b923c\transformed\firebase-common-20.1.0\AndroidManifest.xml:29:13-43
-198            android:exported="false"
-198-->[com.google.firebase:firebase-common:20.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\99c9f4d55a69134a1a48ac6baa0b923c\transformed\firebase-common-20.1.0\AndroidManifest.xml:30:13-37
-199            android:initOrder="100" />
-199-->[com.google.firebase:firebase-common:20.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\99c9f4d55a69134a1a48ac6baa0b923c\transformed\firebase-common-20.1.0\AndroidManifest.xml:31:13-36
-200
-201        <meta-data
-201-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\12218c671e595a9d0cb78468d9cd5eaa\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
-202            android:name="com.google.android.gms.version"
-202-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\12218c671e595a9d0cb78468d9cd5eaa\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
-203            android:value="@integer/google_play_services_version" />
-203-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\12218c671e595a9d0cb78468d9cd5eaa\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
-204
-205        <provider
-205-->[androidx.emoji2:emoji2:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\caa275d550273cc914c299f44dc00c16\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-206            android:name="androidx.startup.InitializationProvider"
-206-->[androidx.emoji2:emoji2:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\caa275d550273cc914c299f44dc00c16\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
-207            android:authorities="com.c.belajarmatematika.androidx-startup"
-207-->[androidx.emoji2:emoji2:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\caa275d550273cc914c299f44dc00c16\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
-208            android:exported="false" >
-208-->[androidx.emoji2:emoji2:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\caa275d550273cc914c299f44dc00c16\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
-209            <meta-data
-209-->[androidx.emoji2:emoji2:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\caa275d550273cc914c299f44dc00c16\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-210                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-210-->[androidx.emoji2:emoji2:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\caa275d550273cc914c299f44dc00c16\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
-211                android:value="androidx.startup" />
-211-->[androidx.emoji2:emoji2:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\caa275d550273cc914c299f44dc00c16\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
-212            <meta-data
-212-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\CIKO\.gradle\caches\transforms-3\2b326b9818b25997fcfa4ca0bff064a3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-213                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-213-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\CIKO\.gradle\caches\transforms-3\2b326b9818b25997fcfa4ca0bff064a3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-214                android:value="androidx.startup" />
-214-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\CIKO\.gradle\caches\transforms-3\2b326b9818b25997fcfa4ca0bff064a3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-215        </provider>
-216
-217        <service
-217-->[com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\db5af1c6cb689434a369192b2e1c0206\transformed\transport-backend-cct-3.1.2\AndroidManifest.xml:29:9-35:19
-218            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-218-->[com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\db5af1c6cb689434a369192b2e1c0206\transformed\transport-backend-cct-3.1.2\AndroidManifest.xml:30:13-103
-219            android:exported="false" >
-219-->[com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\db5af1c6cb689434a369192b2e1c0206\transformed\transport-backend-cct-3.1.2\AndroidManifest.xml:31:13-37
-220            <meta-data
-220-->[com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\db5af1c6cb689434a369192b2e1c0206\transformed\transport-backend-cct-3.1.2\AndroidManifest.xml:32:13-34:39
-221                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-221-->[com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\db5af1c6cb689434a369192b2e1c0206\transformed\transport-backend-cct-3.1.2\AndroidManifest.xml:33:17-94
-222                android:value="cct" />
-222-->[com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\db5af1c6cb689434a369192b2e1c0206\transformed\transport-backend-cct-3.1.2\AndroidManifest.xml:34:17-36
-223        </service>
-224        <service
-224-->[com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\3bb2da771958b109fb30a11801e532b7\transformed\transport-runtime-3.1.2\AndroidManifest.xml:26:9-30:19
-225            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-225-->[com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\3bb2da771958b109fb30a11801e532b7\transformed\transport-runtime-3.1.2\AndroidManifest.xml:27:13-117
-226            android:exported="false"
-226-->[com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\3bb2da771958b109fb30a11801e532b7\transformed\transport-runtime-3.1.2\AndroidManifest.xml:28:13-37
-227            android:permission="android.permission.BIND_JOB_SERVICE" >
-227-->[com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\3bb2da771958b109fb30a11801e532b7\transformed\transport-runtime-3.1.2\AndroidManifest.xml:29:13-69
-228        </service>
-229
-230        <receiver
-230-->[com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\3bb2da771958b109fb30a11801e532b7\transformed\transport-runtime-3.1.2\AndroidManifest.xml:32:9-34:40
-231            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-231-->[com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\3bb2da771958b109fb30a11801e532b7\transformed\transport-runtime-3.1.2\AndroidManifest.xml:33:13-132
-232            android:exported="false" />
-232-->[com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\3bb2da771958b109fb30a11801e532b7\transformed\transport-runtime-3.1.2\AndroidManifest.xml:34:13-37
-233    </application>
-234
-235</manifest>
+121            android:screenOrientation="landscape" />
+121-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:109:13-50
+122        <activity
+122-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:110:9-113:53
+123            android:name="com.c.belajarmatematika.materiBangun.Bangun1Activity"
+123-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:111:13-57
+124            android:exported="false"
+124-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:112:13-37
+125            android:screenOrientation="landscape" />
+125-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:113:13-50
+126        <activity
+126-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:114:9-117:53
+127            android:name="com.c.belajarmatematika.materiSkala.Skala1Activity"
+127-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:115:13-55
+128            android:exported="false"
+128-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:116:13-37
+129            android:screenOrientation="landscape" />
+129-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:117:13-50
+130        <activity
+130-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:118:9-121:53
+131            android:name="com.c.belajarmatematika.materiKecepatan.Kecepatan1Activity"
+131-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:119:13-63
+132            android:exported="false"
+132-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:120:13-37
+133            android:screenOrientation="landscape" />
+133-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:121:13-50
+134        <activity
+134-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:122:9-125:53
+135            android:name="com.c.belajarmatematika.materiOperasi.Operasi1Activity"
+135-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:123:13-59
+136            android:exported="false"
+136-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:124:13-37
+137            android:screenOrientation="landscape" />
+137-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:125:13-50
+138        <activity
+138-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:126:9-129:53
+139            android:name="com.c.belajarmatematika.Kuis4.ResultSkalaActivity"
+139-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:127:13-54
+140            android:exported="false"
+140-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:128:13-37
+141            android:screenOrientation="landscape" />
+141-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:129:13-50
+142        <activity
+142-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:130:9-133:53
+143            android:name="com.c.belajarmatematika.Kuis4.KuisSkalaActivity"
+143-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:131:13-52
+144            android:exported="false"
+144-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:132:13-37
+145            android:screenOrientation="landscape" />
+145-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:133:13-50
+146        <activity
+146-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:134:9-137:53
+147            android:name="com.c.belajarmatematika.Kuis4.Skuis4Activity"
+147-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:135:13-49
+148            android:exported="false"
+148-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:136:13-37
+149            android:screenOrientation="landscape" />
+149-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:137:13-50
+150        <activity
+150-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:138:9-141:53
+151            android:name="com.c.belajarmatematika.Kuis3.ResultKecepatan1Activity"
+151-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:139:13-59
+152            android:exported="false"
+152-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:140:13-37
+153            android:screenOrientation="landscape" />
+153-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:141:13-50
+154        <activity
+154-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:142:9-145:53
+155            android:name="com.c.belajarmatematika.Kuis3.KuisKecepatan1Activity"
+155-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:143:13-57
+156            android:exported="false"
+156-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:144:13-37
+157            android:screenOrientation="landscape" />
+157-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:145:13-50
+158        <activity
+158-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:146:9-149:53
+159            android:name="com.c.belajarmatematika.Kuis3.Skuis3Activity"
+159-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:147:13-49
+160            android:exported="false"
+160-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:148:13-37
+161            android:screenOrientation="landscape" />
+161-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:149:13-50
+162        <activity
+162-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:150:9-153:53
+163            android:name="com.c.belajarmatematika.kuis2.ResultOperasi2Activity"
+163-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:151:13-57
+164            android:exported="false"
+164-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:152:13-37
+165            android:screenOrientation="landscape" />
+165-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:153:13-50
+166        <activity
+166-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:154:9-157:53
+167            android:name="com.c.belajarmatematika.kuis2.KuisOperasi2Activity"
+167-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:155:13-55
+168            android:exported="false"
+168-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:156:13-37
+169            android:screenOrientation="landscape" />
+169-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:157:13-50
+170        <activity
+170-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:158:9-161:53
+171            android:name="com.c.belajarmatematika.Kuis.Skuis1Activity"
+171-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:159:13-48
+172            android:exported="false"
+172-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:160:13-37
+173            android:screenOrientation="landscape" />
+173-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:161:13-50
+174        <activity
+174-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:162:9-165:53
+175            android:name="com.c.belajarmatematika.matematika.KuisActivity"
+175-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:163:13-52
+176            android:exported="false"
+176-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:164:13-37
+177            android:screenOrientation="landscape" />
+177-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:165:13-50
+178        <activity
+178-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:166:9-169:53
+179            android:name="com.c.belajarmatematika.Kuis.ResultOperasiActivity"
+179-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:167:13-55
+180            android:exported="false"
+180-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:168:13-37
+181            android:screenOrientation="landscape" />
+181-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:169:13-50
+182        <activity
+182-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:170:9-173:53
+183            android:name="com.c.belajarmatematika.Kuis.KuizOperasiActivity"
+183-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:171:13-53
+184            android:exported="false"
+184-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:172:13-37
+185            android:screenOrientation="landscape" />
+185-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:173:13-50
+186        <activity
+186-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:174:9-177:53
+187            android:name="com.c.belajarmatematika.bilanganBulat.BilanganBulatActivity"
+187-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:175:13-64
+188            android:exported="false"
+188-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:176:13-37
+189            android:screenOrientation="landscape" />
+189-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:177:13-50
+190        <activity
+190-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:178:9-181:53
+191            android:name="com.c.belajarmatematika.matematika.MateriActivity"
+191-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:179:13-54
+192            android:exported="false"
+192-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:180:13-37
+193            android:screenOrientation="landscape" />
+193-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:181:13-50
+194        <activity
+194-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:182:9-185:58
+195            android:name="com.c.belajarmatematika.activities.ChatActivity"
+195-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:183:13-52
+196            android:exported="false"
+196-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:184:13-37
+197            android:windowSoftInputMode="adjustResize" />
+197-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:185:13-55
+198        <activity
+198-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:186:9-188:40
+199            android:name="com.c.belajarmatematika.activities.UsersActivity"
+199-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:187:13-53
+200            android:exported="false" />
+200-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:188:13-37
+201        <activity
+201-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:189:9-192:53
+202            android:name="com.c.belajarmatematika.matematika.MenuActivity"
+202-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:190:13-52
+203            android:exported="false"
+203-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:191:13-37
+204            android:screenOrientation="landscape" />
+204-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:192:13-50
+205        <activity
+205-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:193:9-196:58
+206            android:name="com.c.belajarmatematika.activities.SignUpActivity"
+206-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:194:13-54
+207            android:exported="false"
+207-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:195:13-37
+208            android:windowSoftInputMode="adjustResize" />
+208-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:196:13-55
+209        <activity
+209-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:197:9-206:20
+210            android:name="com.c.belajarmatematika.activities.SignInActivity"
+210-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:198:13-54
+211            android:exported="true"
+211-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:199:13-36
+212            android:windowSoftInputMode="adjustResize" >
+212-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:200:13-55
+213            <intent-filter>
+213-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:201:13-205:29
+214                <action android:name="android.intent.action.MAIN" />
+214-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:202:17-69
+214-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:202:25-66
+215
+216                <category android:name="android.intent.category.LAUNCHER" />
+216-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:204:17-77
+216-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:204:27-74
+217            </intent-filter>
+218        </activity>
+219        <activity
+219-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:207:9-209:40
+220            android:name="com.c.belajarmatematika.activities.MainActivity"
+220-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:208:13-52
+221            android:exported="false" />
+221-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:209:13-37
+222
+223        <service
+223-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:211:9-217:19
+224            android:name="com.c.belajarmatematika.firebase.MessagingService"
+224-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:212:13-54
+225            android:exported="false" >
+225-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:213:13-37
+226            <intent-filter>
+226-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:214:13-216:29
+227                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+227-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:215:17-78
+227-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:215:25-75
+228            </intent-filter>
+229        </service>
+230
+231        <receiver
+231-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:31:9-38:20
+232            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+232-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:32:13-78
+233            android:exported="true"
+233-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:33:13-36
+234            android:permission="com.google.android.c2dm.permission.SEND" >
+234-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:34:13-73
+235            <intent-filter>
+235-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:35:13-37:29
+236                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+236-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:36:17-81
+236-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:36:25-78
+237            </intent-filter>
+238        </receiver>
+239        <!--
+240             FirebaseMessagingService performs security checks at runtime,
+241             but set to not exported to explicitly avoid allowing another app to call it.
+242        -->
+243        <service
+243-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:44:9-51:19
+244            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+244-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:45:13-82
+245            android:directBootAware="true"
+245-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:46:13-43
+246            android:exported="false" >
+246-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:47:13-37
+247            <intent-filter android:priority="-500" >
+247-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:214:13-216:29
+248                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+248-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:215:17-78
+248-->D:\skripsi\Belajar-Matematika\app\src\main\AndroidManifest.xml:215:25-75
+249            </intent-filter>
+250        </service>
+251        <service
+251-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:52:9-58:19
+252            android:name="com.google.firebase.components.ComponentDiscoveryService"
+252-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:53:13-84
+253            android:directBootAware="true"
+253-->[com.google.firebase:firebase-common:20.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\99c9f4d55a69134a1a48ac6baa0b923c\transformed\firebase-common-20.1.0\AndroidManifest.xml:35:13-43
+254            android:exported="false" >
+254-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:54:13-37
+255            <meta-data
+255-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:55:13-57:85
+256                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+256-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:56:17-119
+257                android:value="com.google.firebase.components.ComponentRegistrar" />
+257-->[com.google.firebase:firebase-messaging:23.0.2] C:\Users\CIKO\.gradle\caches\transforms-3\d6203482a59ed3f07d15312d6a54c562\transformed\firebase-messaging-23.0.2\AndroidManifest.xml:57:17-82
+258            <meta-data
+258-->[com.google.firebase:firebase-firestore:24.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\1bdc2d1a0ee957f6970b921ca8c877a6\transformed\firebase-firestore-24.1.0\AndroidManifest.xml:20:13-22:85
+259                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+259-->[com.google.firebase:firebase-firestore:24.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\1bdc2d1a0ee957f6970b921ca8c877a6\transformed\firebase-firestore-24.1.0\AndroidManifest.xml:21:17-111
+260                android:value="com.google.firebase.components.ComponentRegistrar" />
+260-->[com.google.firebase:firebase-firestore:24.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\1bdc2d1a0ee957f6970b921ca8c877a6\transformed\firebase-firestore-24.1.0\AndroidManifest.xml:22:17-82
+261            <meta-data
+261-->[com.google.firebase:firebase-datatransport:18.1.1] C:\Users\CIKO\.gradle\caches\transforms-3\bcbec35d0698f239911d95bc90208284\transformed\firebase-datatransport-18.1.1\AndroidManifest.xml:28:13-30:85
+262                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+262-->[com.google.firebase:firebase-datatransport:18.1.1] C:\Users\CIKO\.gradle\caches\transforms-3\bcbec35d0698f239911d95bc90208284\transformed\firebase-datatransport-18.1.1\AndroidManifest.xml:29:17-115
+263                android:value="com.google.firebase.components.ComponentRegistrar" />
+263-->[com.google.firebase:firebase-datatransport:18.1.1] C:\Users\CIKO\.gradle\caches\transforms-3\bcbec35d0698f239911d95bc90208284\transformed\firebase-datatransport-18.1.1\AndroidManifest.xml:30:17-82
+264            <meta-data
+264-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\570216b2a346f4461e915c57fe8b149f\transformed\firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
+265                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+265-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\570216b2a346f4461e915c57fe8b149f\transformed\firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
+266                android:value="com.google.firebase.components.ComponentRegistrar" />
+266-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\570216b2a346f4461e915c57fe8b149f\transformed\firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
+267        </service>
+268
+269        <activity
+269-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\9676a389bb62eadf5c36cf3412b457fa\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+270            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+270-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\9676a389bb62eadf5c36cf3412b457fa\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+271            android:exported="false"
+271-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\9676a389bb62eadf5c36cf3412b457fa\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+272            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+272-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\CIKO\.gradle\caches\transforms-3\9676a389bb62eadf5c36cf3412b457fa\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+273
+274        <provider
+274-->[com.google.firebase:firebase-common:20.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\99c9f4d55a69134a1a48ac6baa0b923c\transformed\firebase-common-20.1.0\AndroidManifest.xml:26:9-31:39
+275            android:name="com.google.firebase.provider.FirebaseInitProvider"
+275-->[com.google.firebase:firebase-common:20.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\99c9f4d55a69134a1a48ac6baa0b923c\transformed\firebase-common-20.1.0\AndroidManifest.xml:27:13-77
+276            android:authorities="com.c.belajarmatematika.firebaseinitprovider"
+276-->[com.google.firebase:firebase-common:20.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\99c9f4d55a69134a1a48ac6baa0b923c\transformed\firebase-common-20.1.0\AndroidManifest.xml:28:13-72
+277            android:directBootAware="true"
+277-->[com.google.firebase:firebase-common:20.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\99c9f4d55a69134a1a48ac6baa0b923c\transformed\firebase-common-20.1.0\AndroidManifest.xml:29:13-43
+278            android:exported="false"
+278-->[com.google.firebase:firebase-common:20.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\99c9f4d55a69134a1a48ac6baa0b923c\transformed\firebase-common-20.1.0\AndroidManifest.xml:30:13-37
+279            android:initOrder="100" />
+279-->[com.google.firebase:firebase-common:20.1.0] C:\Users\CIKO\.gradle\caches\transforms-3\99c9f4d55a69134a1a48ac6baa0b923c\transformed\firebase-common-20.1.0\AndroidManifest.xml:31:13-36
+280
+281        <meta-data
+281-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\12218c671e595a9d0cb78468d9cd5eaa\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+282            android:name="com.google.android.gms.version"
+282-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\12218c671e595a9d0cb78468d9cd5eaa\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+283            android:value="@integer/google_play_services_version" />
+283-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\12218c671e595a9d0cb78468d9cd5eaa\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+284
+285        <provider
+285-->[androidx.emoji2:emoji2:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\caa275d550273cc914c299f44dc00c16\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+286            android:name="androidx.startup.InitializationProvider"
+286-->[androidx.emoji2:emoji2:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\caa275d550273cc914c299f44dc00c16\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+287            android:authorities="com.c.belajarmatematika.androidx-startup"
+287-->[androidx.emoji2:emoji2:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\caa275d550273cc914c299f44dc00c16\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+288            android:exported="false" >
+288-->[androidx.emoji2:emoji2:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\caa275d550273cc914c299f44dc00c16\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+289            <meta-data
+289-->[androidx.emoji2:emoji2:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\caa275d550273cc914c299f44dc00c16\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+290                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+290-->[androidx.emoji2:emoji2:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\caa275d550273cc914c299f44dc00c16\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+291                android:value="androidx.startup" />
+291-->[androidx.emoji2:emoji2:1.0.0] C:\Users\CIKO\.gradle\caches\transforms-3\caa275d550273cc914c299f44dc00c16\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+292            <meta-data
+292-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\CIKO\.gradle\caches\transforms-3\2b326b9818b25997fcfa4ca0bff064a3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+293                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+293-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\CIKO\.gradle\caches\transforms-3\2b326b9818b25997fcfa4ca0bff064a3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+294                android:value="androidx.startup" />
+294-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\CIKO\.gradle\caches\transforms-3\2b326b9818b25997fcfa4ca0bff064a3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+295        </provider>
+296
+297        <service
+297-->[com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\db5af1c6cb689434a369192b2e1c0206\transformed\transport-backend-cct-3.1.2\AndroidManifest.xml:29:9-35:19
+298            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+298-->[com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\db5af1c6cb689434a369192b2e1c0206\transformed\transport-backend-cct-3.1.2\AndroidManifest.xml:30:13-103
+299            android:exported="false" >
+299-->[com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\db5af1c6cb689434a369192b2e1c0206\transformed\transport-backend-cct-3.1.2\AndroidManifest.xml:31:13-37
+300            <meta-data
+300-->[com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\db5af1c6cb689434a369192b2e1c0206\transformed\transport-backend-cct-3.1.2\AndroidManifest.xml:32:13-34:39
+301                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+301-->[com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\db5af1c6cb689434a369192b2e1c0206\transformed\transport-backend-cct-3.1.2\AndroidManifest.xml:33:17-94
+302                android:value="cct" />
+302-->[com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\db5af1c6cb689434a369192b2e1c0206\transformed\transport-backend-cct-3.1.2\AndroidManifest.xml:34:17-36
+303        </service>
+304        <service
+304-->[com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\3bb2da771958b109fb30a11801e532b7\transformed\transport-runtime-3.1.2\AndroidManifest.xml:26:9-30:19
+305            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+305-->[com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\3bb2da771958b109fb30a11801e532b7\transformed\transport-runtime-3.1.2\AndroidManifest.xml:27:13-117
+306            android:exported="false"
+306-->[com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\3bb2da771958b109fb30a11801e532b7\transformed\transport-runtime-3.1.2\AndroidManifest.xml:28:13-37
+307            android:permission="android.permission.BIND_JOB_SERVICE" >
+307-->[com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\3bb2da771958b109fb30a11801e532b7\transformed\transport-runtime-3.1.2\AndroidManifest.xml:29:13-69
+308        </service>
+309
+310        <receiver
+310-->[com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\3bb2da771958b109fb30a11801e532b7\transformed\transport-runtime-3.1.2\AndroidManifest.xml:32:9-34:40
+311            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+311-->[com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\3bb2da771958b109fb30a11801e532b7\transformed\transport-runtime-3.1.2\AndroidManifest.xml:33:13-132
+312            android:exported="false" />
+312-->[com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\CIKO\.gradle\caches\transforms-3\3bb2da771958b109fb30a11801e532b7\transformed\transport-runtime-3.1.2\AndroidManifest.xml:34:13-37
+313    </application>
+314
+315</manifest>

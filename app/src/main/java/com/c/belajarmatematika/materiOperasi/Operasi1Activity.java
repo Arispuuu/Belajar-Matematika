@@ -10,15 +10,9 @@ import android.view.WindowManager;
 import android.widget.ImageButton;
 import android.widget.ViewFlipper;
 
-import com.c.belajarmatematika.Kuis.Skuis1Activity;
-import com.c.belajarmatematika.Kuis3.Skuis3Activity;
-import com.c.belajarmatematika.Kuis4.Skuis4Activity;
 import com.c.belajarmatematika.R;
-import com.c.belajarmatematika.databinding.ActivityKuisBinding;
 import com.c.belajarmatematika.databinding.ActivityOperasi1Binding;
-import com.c.belajarmatematika.kuis2.Skuis2Activity;
 import com.c.belajarmatematika.matematika.MateriActivity;
-import com.c.belajarmatematika.matematika.MenuActivity;
 
 public class Operasi1Activity extends AppCompatActivity implements View.OnClickListener {
 

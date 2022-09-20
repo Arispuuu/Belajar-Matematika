@@ -38,15 +38,6 @@
                 </ImageButton>
 
                 <ImageButton
-                    android:id="@+id/KOperasi2"
-                    android:layout_width="170dp"
-                    android:layout_height="110dp"
-                    android:layout_marginEnd="10dp"
-                    android:background="@drawable/soperasi2">
-
-                </ImageButton>
-
-                <ImageButton
                     android:id="@+id/KSkala"
                     android:layout_width="170dp"
                     android:layout_height="110dp"

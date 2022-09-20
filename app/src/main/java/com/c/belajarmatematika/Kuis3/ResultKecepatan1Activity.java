@@ -11,11 +11,11 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.TextView;
 
+import com.c.belajarmatematika.Kuis31.KuisKecepatan31Activity;
 import com.c.belajarmatematika.R;
-import com.c.belajarmatematika.activities.MainActivity;
 import com.c.belajarmatematika.databinding.ActivityResultKecepatan1Binding;
 import com.c.belajarmatematika.databinding.ActivityResultOperasi2Binding;
-import com.c.belajarmatematika.matematika.KuisActivity;
+import com.c.belajarmatematika.menukuis2.MenuKuis2Activity;
 
 public class ResultKecepatan1Activity extends AppCompatActivity {
 
@@ -58,13 +58,13 @@ public class ResultKecepatan1Activity extends AppCompatActivity {
 
         binding.exit.setOnClickListener(view -> {
             suarabtn.start();
-            startActivity(new Intent(getApplicationContext(), KuisActivity.class));
+            startActivity(new Intent(getApplicationContext(), MenuKuis2Activity.class));
         });
 
     }
 
     public void restartgame3(View view) {
         suarabtn.start();
-        super.onBackPressed();
+        startActivity(new Intent(getApplicationContext(), KuisKecepatan31Activity.class));
     }
 }

@@ -10,10 +10,13 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.TextView;
 
+import com.c.belajarmatematika.Kuis41.KuisSkala41Activity;
+import com.c.belajarmatematika.Kuis51.KuisBangun51Activity;
 import com.c.belajarmatematika.R;
 import com.c.belajarmatematika.databinding.ActivityResultBangun1Binding;
 import com.c.belajarmatematika.databinding.ActivityResultKecepatan1Binding;
 import com.c.belajarmatematika.matematika.KuisActivity;
+import com.c.belajarmatematika.menukuis2.MenuKuis2Activity;
 
 public class ResultBangun1Activity extends AppCompatActivity {
 
@@ -56,13 +59,13 @@ public class ResultBangun1Activity extends AppCompatActivity {
 
         binding.exit.setOnClickListener(view -> {
             suarabtn.start();
-            startActivity(new Intent(getApplicationContext(), KuisActivity.class));
+            startActivity(new Intent(getApplicationContext(), MenuKuis2Activity.class));
         });
 
     }
 
     public void restartgame5(View view) {
         suarabtn.start();
-        super.onBackPressed();
+        startActivity(new Intent(getApplicationContext(), KuisBangun51Activity.class));
     }
 }

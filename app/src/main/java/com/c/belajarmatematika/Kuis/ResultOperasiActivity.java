@@ -10,10 +10,10 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.TextView;
 
+import com.c.belajarmatematika.Kuis11.KuisOperasi11Activity;
 import com.c.belajarmatematika.R;
 import com.c.belajarmatematika.databinding.ActivityResultOperasiBinding;
-import com.c.belajarmatematika.matematika.KuisActivity;
-import com.c.belajarmatematika.matematika.MenuActivity;
+import com.c.belajarmatematika.menukuis2.MenuKuis2Activity;
 
 public class ResultOperasiActivity extends AppCompatActivity {
 
@@ -56,7 +56,7 @@ public class ResultOperasiActivity extends AppCompatActivity {
 
         binding.exit.setOnClickListener(view -> {
             suarabtn.start();
-            startActivity(new Intent(getApplicationContext(), KuisActivity.class));
+            startActivity(new Intent(getApplicationContext(), MenuKuis2Activity.class));
         });
 
     }
@@ -64,6 +64,6 @@ public class ResultOperasiActivity extends AppCompatActivity {
 
     public void restartGame(View view) {
         suarabtn.start();
-        super.onBackPressed();
+        startActivity(new Intent(getApplicationContext(), KuisOperasi11Activity.class));
     }
 }

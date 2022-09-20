@@ -27,9 +27,6 @@ public final class ActivityKuisBinding implements ViewBinding {
   public final ImageButton KOperasi;
 
   @NonNull
-  public final ImageButton KOperasi2;
-
-  @NonNull
   public final ImageButton KSkala;
 
   @NonNull
@@ -45,13 +42,12 @@ public final class ActivityKuisBinding implements ViewBinding {
   public final RelativeLayout logo;
 
   private ActivityKuisBinding(@NonNull RelativeLayout rootView, @NonNull ImageButton KKecepatan,
-      @NonNull ImageButton KOperasi, @NonNull ImageButton KOperasi2, @NonNull ImageButton KSkala,
-      @NonNull ImageButton Kbangun, @NonNull HorizontalScrollView horizontal,
-      @NonNull ImageButton imageBack, @NonNull RelativeLayout logo) {
+      @NonNull ImageButton KOperasi, @NonNull ImageButton KSkala, @NonNull ImageButton Kbangun,
+      @NonNull HorizontalScrollView horizontal, @NonNull ImageButton imageBack,
+      @NonNull RelativeLayout logo) {
     this.rootView = rootView;
     this.KKecepatan = KKecepatan;
     this.KOperasi = KOperasi;
-    this.KOperasi2 = KOperasi2;
     this.KSkala = KSkala;
     this.Kbangun = Kbangun;
     this.horizontal = horizontal;
@@ -98,12 +94,6 @@ public final class ActivityKuisBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.KOperasi2;
-      ImageButton KOperasi2 = ViewBindings.findChildViewById(rootView, id);
-      if (KOperasi2 == null) {
-        break missingId;
-      }
-
       id = R.id.KSkala;
       ImageButton KSkala = ViewBindings.findChildViewById(rootView, id);
       if (KSkala == null) {
@@ -134,8 +124,8 @@ public final class ActivityKuisBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityKuisBinding((RelativeLayout) rootView, KKecepatan, KOperasi, KOperasi2,
-          KSkala, Kbangun, horizontal, imageBack, logo);
+      return new ActivityKuisBinding((RelativeLayout) rootView, KKecepatan, KOperasi, KSkala,
+          Kbangun, horizontal, imageBack, logo);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

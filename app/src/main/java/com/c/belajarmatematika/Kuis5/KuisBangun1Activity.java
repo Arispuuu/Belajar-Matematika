@@ -78,7 +78,7 @@ public class KuisBangun1Activity extends AppCompatActivity {
 
                 if (QuestionNum == mQuestions.getLength() -1){
 
-                    Intent intent_result = new Intent(KuisBangun1Activity.this, ResultOperasiActivity.class);
+                    Intent intent_result = new Intent(KuisBangun1Activity.this, ResultBangun1Activity.class);
                     intent_result.putExtra("totalQuestions", mQuestions.getLength());
                     intent_result.putExtra("finalScore", mScore);
                     startActivity(intent_result);

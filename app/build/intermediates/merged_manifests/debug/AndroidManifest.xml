@@ -24,6 +24,90 @@
         android:testOnly="true"
         android:theme="@style/Theme.BelajarMatematika" >
         <activity
+            android:name="com.c.belajarmatematika.menukuis2.Skuisb1Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.c.belajarmatematika.Kuis52.ResultBangun52Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.c.belajarmatematika.Kuis52.KuisBangun52Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.c.belajarmatematika.menukuis2.Skuissk1Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.c.belajarmatematika.menukuis2.Skuisk1Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.c.belajarmatematika.menukuis2.Skuism1Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.c.belajarmatematika.menukuis2.MenuKuis2Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.c.belajarmatematika.Kuis32.ResultKecepatan32Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.c.belajarmatematika.Kuis32.KuisKecepatan32Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.c.belajarmatematika.Kuis51.ResultBangun51Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.c.belajarmatematika.Kuis51.KuisBangun51Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.c.belajarmatematika.Kuis42.ResultSkala42Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.c.belajarmatematika.Kuis42.KuisSkala42Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.c.belajarmatematika.Kuis41.ResultSkala41Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.c.belajarmatematika.Kuis41.KuisSkala41Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.c.belajarmatematika.Kuis31.ResultKecepatan31Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.c.belajarmatematika.Kuis31.KuisKecepatan31Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.c.belajarmatematika.Kuis12.ResultOperasi112Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.c.belajarmatematika.Kuis12.KuisOperasi12Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.c.belajarmatematika.Kuis11.ResultOperasi11Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.c.belajarmatematika.Kuis11.KuisOperasi11Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
             android:name="com.c.belajarmatematika.Kuis5.Skuis5Activity"
             android:exported="false"
             android:screenOrientation="landscape" />
@@ -81,10 +165,6 @@
             android:screenOrientation="landscape" />
         <activity
             android:name="com.c.belajarmatematika.kuis2.KuisOperasi2Activity"
-            android:exported="false"
-            android:screenOrientation="landscape" />
-        <activity
-            android:name="com.c.belajarmatematika.kuis2.Skuis2Activity"
             android:exported="false"
             android:screenOrientation="landscape" />
         <activity

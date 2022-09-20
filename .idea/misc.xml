@@ -26,13 +26,22 @@
         <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_kecepatan1.xml" value="0.25" />
         <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_kuis.xml" value="0.25" />
         <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_kuis_bangun1.xml" value="0.36666666666666664" />
+        <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_kuis_bangun51.xml" value="0.36666666666666664" />
+        <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_kuis_bangun52.xml" value="0.36666666666666664" />
         <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_kuis_kecepatan1.xml" value="0.25" />
+        <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_kuis_kecepatan31.xml" value="0.36666666666666664" />
+        <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_kuis_kecepatan32.xml" value="0.3319746376811594" />
+        <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_kuis_operasi11.xml" value="0.36666666666666664" />
+        <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_kuis_operasi12.xml" value="0.36666666666666664" />
         <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_kuis_operasi2.xml" value="0.15" />
-        <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_kuis_skala.xml" value="0.36666666666666664" />
+        <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_kuis_skala.xml" value="0.24" />
+        <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_kuis_skala41.xml" value="0.36666666666666664" />
+        <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_kuis_skala42.xml" value="0.36666666666666664" />
         <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_main2.xml" value="0.36666666666666664" />
         <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_materi.xml" value="0.22" />
-        <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_menu.xml" value="0.2" />
+        <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_menu.xml" value="0.25" />
+        <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_menu_kuis2.xml" value="0.36666666666666664" />
         <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_opeari11.xml" value="0.36666666666666664" />
         <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_operasi1.xml" value="0.25" />
         <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_operasi10.xml" value="0.36666666666666664" />
@@ -54,12 +63,23 @@
         <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_operasi_selesai.xml" value="0.36666666666666664" />
         <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_quiz_bulat.xml" value="0.18" />
         <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_quiz_operasi.xml" value="0.18" />
+        <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_result52.xml" value="0.36666666666666664" />
         <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_result_bangun1.xml" value="0.35260416666666666" />
+        <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_result_bangun51.xml" value="0.36666666666666664" />
+        <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_result_bangun52.xml" value="0.36666666666666664" />
         <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_result_bulat.xml" value="0.22" />
         <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_result_kecepatan1.xml" value="0.36666666666666664" />
+        <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_result_kecepatan31.xml" value="0.36666666666666664" />
+        <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_result_kecepatan32.xml" value="0.36666666666666664" />
         <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_result_operasi.xml" value="0.25" />
+        <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_result_operasi11.xml" value="0.21717171717171718" />
+        <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_result_operasi112.xml" value="0.36666666666666664" />
+        <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_result_operasi12.xml" value="0.35260416666666666" />
         <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_result_operasi2.xml" value="0.24444444444444444" />
         <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_result_skala.xml" value="0.36666666666666664" />
+        <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_result_skala41.xml" value="0.36666666666666664" />
+        <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_result_skala42.xml" value="0.36666666666666664" />
+        <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_selamat.xml" value="0.23214285714285715" />
         <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_sign_in.xml" value="0.33" />
         <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_sign_up.xml" value="0.245018115942029" />
         <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_skala.xml" value="0.36666666666666664" />
@@ -69,6 +89,10 @@
         <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_skuis3.xml" value="0.27898550724637683" />
         <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_skuis4.xml" value="0.36666666666666664" />
         <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_skuis5.xml" value="0.36666666666666664" />
+        <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_skuisb1.xml" value="0.36666666666666664" />
+        <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_skuisk1.xml" value="0.36666666666666664" />
+        <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_skuism1.xml" value="0.36666666666666664" />
+        <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_skuissk1.xml" value="0.36666666666666664" />
         <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_splash.xml" value="0.36666666666666664" />
         <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/activity_users.xml" value="0.20833333333333334" />
         <entry key="..\:/skripsi/Belajar-Matematika/app/src/main/res/layout/coba.xml" value="0.245018115942029" />

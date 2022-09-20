@@ -12,9 +12,7 @@ import com.c.belajarmatematika.Kuis3.Skuis3Activity;
 import com.c.belajarmatematika.Kuis4.Skuis4Activity;
 import com.c.belajarmatematika.Kuis5.Skuis5Activity;
 import com.c.belajarmatematika.R;
-import com.c.belajarmatematika.activities.MainActivity;
 import com.c.belajarmatematika.databinding.ActivityKuisBinding;
-import com.c.belajarmatematika.kuis2.Skuis2Activity;
 
 public class KuisActivity extends AppCompatActivity {
 
@@ -43,11 +41,6 @@ public class KuisActivity extends AppCompatActivity {
         binding.KOperasi.setOnClickListener(view -> {
             suarabtn.start();
             startActivity(new Intent(getApplicationContext(), Skuis1Activity.class));
-        });
-
-        binding.KOperasi2.setOnClickListener(view -> {
-            suarabtn.start();
-            startActivity(new Intent(getApplicationContext(), Skuis2Activity.class));
         });
 
         binding.KSkala.setOnClickListener(view -> {

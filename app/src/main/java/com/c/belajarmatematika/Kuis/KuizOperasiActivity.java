@@ -4,6 +4,7 @@ import androidx.annotation.ColorInt;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
@@ -20,6 +21,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.c.belajarmatematika.R;
+
+import java.util.ArrayList;
+import java.util.Random;
 
 public class KuizOperasiActivity extends AppCompatActivity {
 
@@ -133,6 +137,7 @@ public class KuizOperasiActivity extends AppCompatActivity {
     }
 
     private void showMainImage() {
+
 
         mQuizImage = findViewById(R.id.quiz_image);
 

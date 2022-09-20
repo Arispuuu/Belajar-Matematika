@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.TextView;
 
+import com.c.belajarmatematika.Kuis12.KuisOperasi12Activity;
 import com.c.belajarmatematika.R;
 import com.c.belajarmatematika.databinding.ActivityResultOperasi2Binding;
 import com.c.belajarmatematika.databinding.ActivityResultOperasiBinding;
@@ -63,6 +64,6 @@ public class ResultOperasi2Activity extends AppCompatActivity {
 
     public void restartgame2(View view) {
         suarabtn.start();
-        super.onBackPressed();
+        startActivity(new Intent(getApplicationContext(), KuisOperasi12Activity.class));
     }
 }
